@@ -1,0 +1,3 @@
+usage: hwinfo [-h] [-f {bios,nic,storage,gpu,cpu}] [-m MACHINE] [-u USERNAME]
+              [-p PASSWORD] [-l LOGS] [-e]
+hwinfo: error: unrecognized arguments: --all
