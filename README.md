@@ -7,6 +7,10 @@ reports (https://github.com/openSUSE/hwinfo) collected by Linux users at https:/
 In the scope of this project, the device is considered poorly supported by Linux if driver
 is not found for this device in at least one user probe on any Linux distribution.
 
+You can find appropriate hwinfo report in this repository by a probe ID as follows:
+
+    find . -name {PROBE ID}
+
 Everyone can contribute to this repository by uploading probes of their computers
 by the hw-probe tool (https://github.com/linuxhw/hw-probe):
 
@@ -241,7 +245,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Graphics card (PCI)
 
-85 out of 6214 (1.37%)
+77 out of 6210 (1.24%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -271,7 +275,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 1002:9853 | 17aa:3800 | AMD/ATI         | Mullins [Radeon APU E... | 11.1%  | 3.14.44  | 23A8BF660D |
 | 1002:9874 | 103c:80b6 | AMD/ATI         | Carrizo                  | 100%   |          | C7EEDACBF5 |
 | 1002:9874 | 17aa:5113 | AMD/ATI         | Carrizo                  | 100%   |          | 32F7318757 |
-| 1002:98e4 | 17aa:39f9 | AMD/ATI         | VGA compatible contro... | 33.3%  | 4.9.20   | C23D0EF968 |
+| 1002:98e4 | 17aa:39f9 | AMD/ATI         | Stoney [Radeon R2/R3/... | 33.3%  | 4.9.20   | C23D0EF968 |
 | 1022:6840 |           | AMD             | VGA compatible contro... | 100%   |          | 065591BE36 |
 | 1023:2100 | 1179:0001 | Trident Micr... | CyberBlade XP4m32        | 100%   |          | F39BB50139 |
 | 102b:0522 | 8086:0103 | Matrox Elect... | MGA G200e [Pilot] Ser... | 50%    | 4.1.38   | 08100751B7 |
@@ -295,14 +299,6 @@ Probe  — latest probe ID with missed driver for the device.
 | 1039:6351 | 17ff:0594 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | F248142F16 |
 | 1039:6351 | 1b0a:0007 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | E60EF0934C |
 | 104d:8087 | 104d:80ed | Sony            | Multimedia video cont... | 100%   |          | 72A578315E |
-| 10de:0df4 |           | Nvidia          | GF108M [GeForce GT 540M] | 1.4%   | 3.14.39  | D9653B9A9C |
-| 10de:0df4 | 1043:1642 | Nvidia          | VGA compatible contro... | 3.6%   | 3.14.44  | D9653B9A9C |
-| 10de:0ffc |           | Nvidia          | GK107GLM [Quadro K1000M] | 100%   |          | 96A6C5CBAB |
-| 10de:0ffc | 17aa:21f5 | Nvidia          | GK107GLM [Quadro K1000M] | 14.3%  | 4.10.0   | 96A6C5CBAB |
-| 10de:134d |           | Nvidia          | GM108M [GeForce 940MX]   | 10%    | 4.9.20   | 73551BF898 |
-| 10de:134d | 17aa:2246 | Nvidia          | GM108M [GeForce 940MX]   | 33.3%  | 4.9.20   | 73551BF898 |
-| 10de:13d8 | 1462:116e | Nvidia          | GM204M [GeForce GTX 9... | 100%   |          | 1C47BC90E4 |
-| 10de:1c8d | 1028:07be | Nvidia          | GP107M [GeForce GTX 1... | 100%   |          | D21FB7D169 |
 | 14f1:5851 |           | Conexant Sys... | Conexant Multimedia v... | 100%   |          | 88FFC14224 |
 | 1797:6804 |           | Intersil Tec... | Multimedia video cont... | 100%   |          | B2C845B843 |
 | 1797:6804 | 1797:6804 | Intersil Tec... | Multimedia video cont... | 100%   |          | B2C845B843 |
