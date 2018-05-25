@@ -14,9 +14,9 @@ You can find appropriate hwinfo report in this repository by a probe ID as follo
 Everyone can contribute to this repository by uploading probes of their computers
 by the hw-probe tool (https://github.com/linuxhw/hw-probe):
 
-    hw-probe -all -upload
+    sudo hw-probe -all -upload
 
-Total reports: 28714.
+Total reports: 28876.
 
 Contents
 --------
@@ -91,7 +91,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
-| 1814:3298 | 103c:18ec | Ralink          | RT3290 Bluetooth         | 100%   |          | 5CBDF712A8 |
+| 1814:3298 | 103c:18ec | Ralink          | RT3290 Bluetooth         | 100%   |          | 68F35CFF51 |
 | 1814:3298 | 105b:e056 | Ralink          | RT3290 Bluetooth         | 100%   |          | A5ABFDA33A |
 | 1814:3298 | 1814:3298 | Ralink          | RT3290 Bluetooth         | 100%   |          | FE9255E7F3 |
 | 1814:3298 | 1a3b:2787 | Ralink          | RT3290 Bluetooth         | 100%   |          | 0E1770A053 |
@@ -109,12 +109,12 @@ Probe  — latest probe ID with missed driver for the device.
 | 10ec:522a | 103c:80a4 | Realtek Semi... | RTS522A PCI Express C... | 33.3%  | 4.9.60   | B01FB51118 |
 | 10ec:522a | 103c:820c | Realtek Semi... | RTS522A PCI Express C... | 33.3%  | 4.9.20   | FAE1CD27F3 |
 | 10ec:522a | 17aa:5113 | Realtek Semi... | RTS522A PCI Express C... | 100%   |          | 32F7318757 |
-| 10ec:5287 | 1025:0866 | Realtek Semi... | RTL8411B PCI Express ... | 2%     | 3.14.25  | 798177A8A9 |
+| 10ec:5287 | 1025:0866 | Realtek Semi... | RTL8411B PCI Express ... | 1.9%   | 3.14.25  | 798177A8A9 |
 | 1aea:6601 | 1179:f900 | Alcor Micro     | AU6601 PCI-E Flash ca... | 100%   |          | 43A9D7922A |
 
 ### Communication controller (PCI)
 
-97 out of 1191 (8.14%)
+97 out of 1201 (8.08%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -199,8 +199,8 @@ Probe  — latest probe ID with missed driver for the device.
 | 8086:a13a | 1028:06f7 | Intel           | Sunrise Point-H CSME ... | 100%   |          | E2D11AD2AC |
 | 8086:a13a | 1043:1080 | Intel           | Sunrise Point-H CSME ... | 100%   |          | 5B1076EA3C |
 | 8086:a13a | 1043:1d6d | Intel           | Sunrise Point-H CSME ... | 100%   |          | 9D6C0DD372 |
-| 8086:a13a | 1043:8694 | Intel           | Sunrise Point-H CSME ... | 21.8%  | 4.4.0    | A91734714E |
-| 8086:a13a | 1458:1c3a | Intel           | Sunrise Point-H CSME ... | 37.9%  | 4.4.16   | 53E6A4F263 |
+| 8086:a13a | 1043:8694 | Intel           | Sunrise Point-H CSME ... | 21.6%  | 4.4.0    | A91734714E |
+| 8086:a13a | 1458:1c3a | Intel           | Sunrise Point-H CSME ... | 37.3%  | 4.4.16   | 53E6A4F263 |
 | 8086:a13a | 1462:116e | Intel           | Sunrise Point-H CSME ... | 100%   |          | 1C47BC90E4 |
 | 8086:a13a | 1462:1190 | Intel           | Sunrise Point-H CSME ... | 16.7%  | 4.9.9    | 2B70AAB06F |
 | 8086:a13a | 1462:7970 | Intel           | Sunrise Point-H CSME ... | 20%    | 4.9.20   | AC10EFBB42 |
@@ -248,11 +248,11 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Graphics card (PCI)
 
-79 out of 6278 (1.26%)
+79 out of 6308 (1.25%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
-| 1002:15dd | 1043:876b | AMD/ATI         | Raven Ridge [Radeon V... | 100%   |          | 36E472183C |
+| 1002:15dd | 1043:876b | AMD/ATI         | Raven Ridge [Radeon V... | 100%   |          | A04FA68080 |
 | 1002:5b70 | 0000:0001 | ATI Technolo... | RV370 [Radeon X300 SE]   | 100%   |          | 8E9A9E1E93 |
 | 1002:67df | 1002:0b37 | AMD/ATI         | Ellesmere [Polaris10]    | 100%   |          | 5CC9EEEBFE |
 | 1002:67df | 1043:04b0 | AMD/ATI         | Ellesmere [Polaris10]    | 100%   |          | 713B99FFC5 |
@@ -321,7 +321,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 8086:1916 | 17aa:382c | Intel           | Skylake GT2 [HD Graph... | 50%    | 4.9.0    | 18379EBD5C |
 | 8086:191b | 1043:1080 | Intel           | VGA compatible contro... | 100%   |          | 5B1076EA3C |
 | 8086:22b1 | 1025:1012 | Intel           | Atom/Celeron/Pentium ... | 13.3%  | 4.9.20   | 16D1C62342 |
-| 8086:22b1 | 1043:10c0 | Intel           | Atom/Celeron/Pentium ... | 8.3%   | 4.1.25   | E6AFAB9B56 |
+| 8086:22b1 | 1043:10c0 | Intel           | Atom/Celeron/Pentium ... | 7.7%   | 4.1.25   | E6AFAB9B56 |
 | 8086:22b1 | 1043:1d5d | Intel           | Atom/Celeron/Pentium ... | 14.3%  | 4.9.20   | 27173939AA |
 | 8086:22b1 | 1558:0945 | Intel           | Atom/Celeron/Pentium ... | 8.3%   | 4.1.15   | BDAF59B6EB |
 | 8086:22b1 | 8086:2060 | Intel           | Atom/Celeron/Pentium ... | 16.7%  | 4.1.15   | 5738D326F6 |
@@ -351,7 +351,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Multimedia controller (PCI)
 
-55 out of 66 (83.33%)
+56 out of 67 (83.58%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -402,6 +402,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 8086:0f38 | 8086:0f31 | Intel           | Atom Processor Z36xxx... | 85.7%  | 4.12.4   | A419E65F55 |
 | 8086:0f38 | 8086:7270 | Intel           | Atom Processor Z36xxx... | 100%   |          | E277646CEF |
 | 8086:1919 | 8086:1919 | Intel           | Skylake Imaging Unit     | 100%   |          | 23C4F883A7 |
+| 8086:1919 | 8086:2015 | Intel           | Skylake Imaging Unit     | 100%   |          | 02E23B6024 |
 | 8086:22b8 | 1025:106e | Intel           | Atom/Celeron/Pentium ... | 100%   |          | 425D589D65 |
 | 8086:22b8 | 103c:827c | Intel           | Atom/Celeron/Pentium ... | 100%   |          | 57910E3D67 |
 | 8086:22b8 | 1043:13a0 | Intel           | Atom/Celeron/Pentium ... | 100%   |          | C508886F10 |
@@ -413,7 +414,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Net/ethernet (PCI)
 
-7 out of 2146 (0.33%)
+7 out of 2152 (0.33%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -422,12 +423,12 @@ Probe  — latest probe ID with missed driver for the device.
 | 10ec:8136 | 1028:0555 | Realtek Semi... | RTL8101/2/6E PCI Expr... | 6.2%   | 4.1.15   | A7211B4E35 |
 | 1186:4200 | 1186:1103 | D-Link System   | DFE-520TX Fast Ethern... | 100%   |          | 790E740601 |
 | 14e4:52a3 | d3a6:afcd | Broadcom Lim... | Ethernet controller      | 100%   |          | 191BA97155 |
-| 8086:107c | 8086:1376 | Intel           | 82541PI Gigabit Ether... | 7.7%   | 2.6.32   | F801FAB1AD |
+| 8086:107c | 8086:1376 | Intel           | 82541PI Gigabit Ether... | 7.1%   | 2.6.32   | F801FAB1AD |
 | 8086:15b8 | 1043:8672 | Intel           | Ethernet Connection (... | 2.1%   | 4.1.15   | 51B31F180E |
 
 ### Net/wireless (PCI)
 
-29 out of 656 (4.42%)
+29 out of 657 (4.41%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -437,10 +438,10 @@ Probe  — latest probe ID with missed driver for the device.
 | 10ec:8190 | 10ec:8190 | Realtek Semi... | RTL8190 802.11n PCI W... | 100%   |          | AF84B8FA95 |
 | 10ec:8821 | 1a3b:2161 | Realtek Semi... | RTL8821AE 802.11ac PC... | 10.5%  | 3.14.44  | 5EEDC9CEE8 |
 | 10ec:b723 | 1025:b734 | Realtek Semi... | RTL8723BE PCIe Wirele... | 2.9%   | 3.14.39  | 09F2C29527 |
-| 10ec:b723 | 103c:2231 | Realtek Semi... | RTL8723BE PCIe Wirele... | 27%    | 3.14.15  | B301F51204 |
-| 10ec:b723 | 10ec:b729 | Realtek Semi... | RTL8723BE PCIe Wirele... | 21.5%  | 3.14.44  | FD5BC52C49 |
+| 10ec:b723 | 103c:2231 | Realtek Semi... | RTL8723BE PCIe Wirele... | 26.6%  | 3.14.15  | B301F51204 |
+| 10ec:b723 | 10ec:b729 | Realtek Semi... | RTL8723BE PCIe Wirele... | 21.3%  | 3.14.44  | FD5BC52C49 |
 | 10ec:b723 | 17aa:b728 | Realtek Semi... | RTL8723BE PCIe Wirele... | 20%    | 3.14.39  | 02D1977887 |
-| 10ec:b723 | 17aa:b736 | Realtek Semi... | RTL8723BE PCIe Wirele... | 10.4%  | 3.14.53  | 8C16B6C71F |
+| 10ec:b723 | 17aa:b736 | Realtek Semi... | RTL8723BE PCIe Wirele... | 10.3%  | 3.14.53  | 8C16B6C71F |
 | 10ec:b723 | 1a3b:2159 | Realtek Semi... | RTL8723BE PCIe Wirele... | 3.2%   | 3.14.44  | DDF48A7B95 |
 | 10ec:b723 | 1b9a:2485 | Realtek Semi... | RTL8723BE PCIe Wirele... | 7.1%   | 4.1.19   | D57B5C86E0 |
 | 11ab:1fa6 | 1043:138f | Marvell Tech... | Marvell W8300 802.11 ... | 100%   |          | 132128B023 |
@@ -448,14 +449,14 @@ Probe  — latest probe ID with missed driver for the device.
 | 11ab:1faa | 1385:6b00 | Marvell Tech... | 88w8335 [Libertas] 80... | 100%   |          | 698A088620 |
 | 14c3:7630 | 103c:197c | MEDIATEK        | MT7630e 802.11bgn Wir... | 27.8%  | 4.1.3    | A7E6CBC45B |
 | 14c3:7630 | 105b:e074 | MEDIATEK        | MT7630e 802.11bgn Wir... | 47.8%  | 3.14.44  | 088B239273 |
-| 14c3:7630 | 105b:e084 | MEDIATEK        | MT7630e 802.11bgn Wir... | 50%    | 4.9.41   | AB0449094D |
+| 14c3:7630 | 105b:e084 | MEDIATEK        | MT7630e 802.11bgn Wir... | 66.7%  | 4.9.41   | 82C19DDA3E |
 | 168c:0042 | 11ad:0806 | Qualcomm Ath... | QCA9377 802.11ac Wire... | 50%    | 4.4.0    | ECB6A89DFC |
-| 168c:0042 | 11ad:08a6 | Qualcomm Ath... | QCA9377 802.11ac Wire... | 7.1%   | 4.9.9    | E7395D0EE2 |
+| 168c:0042 | 11ad:08a6 | Qualcomm Ath... | QCA9377 802.11ac Wire... | 6.7%   | 4.9.9    | E7395D0EE2 |
 | 168c:0042 | 17aa:0901 | Qualcomm Ath... | QCA9377 802.11ac Wire... | 6.7%   | 4.9.9    | C23D0EF968 |
 | 168c:0042 | 17aa:4035 | Qualcomm Ath... | QCA9377 802.11ac Wire... | 2.7%   | 4.8.0    | C3352134E9 |
 | 1814:3062 | 1814:3062 | Ralink          | RT3062 Wireless 802.1... | 16.7%  | 3.14.44  | 9D9E2DB550 |
 | 1814:5592 | 1043:851a | Ralink          | RT5592 PCIe Wireless ... | 100%   |          | 45CCD71213 |
-| 8086:095a | 8086:5400 | Intel           | Wireless 7265            | 20%    | 4.1.25   | 0A99E4D896 |
+| 8086:095a | 8086:5400 | Intel           | Wireless 7265            | 16.7%  | 4.1.25   | 0A99E4D896 |
 | 8086:24f3 | 8086:1010 | Intel           | Wireless 8260            | 5%     | 4.1.15   | 43DF678BD3 |
 | 8086:2526 | 8086:0014 | Intel           | Wireless-AC 9260         | 100%   |          | B078D35C2C |
 | 8086:3165 | 8086:4010 | Intel           | Wireless 3165            | 1.7%   | 4.1.15   | 5738D326F6 |
@@ -463,7 +464,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Network (PCI)
 
-6 out of 467 (1.28%)
+6 out of 469 (1.28%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -476,7 +477,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Sound (PCI)
 
-23 out of 5092 (0.45%)
+23 out of 5116 (0.45%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -547,7 +548,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Storage/ata (PCI)
 
-1 out of 2161 (0.05%)
+1 out of 2168 (0.05%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -555,7 +556,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Storage/raid (PCI)
 
-2 out of 183 (1.09%)
+2 out of 187 (1.07%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -564,7 +565,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### System peripheral (PCI)
 
-81 out of 471 (17.20%)
+81 out of 474 (17.09%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -588,7 +589,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 1180:e230 | 104d:9060 | Ricoh           | R5U2xx (R5U230 / R5U2... | 100%   |          | F3D7A20E22 |
 | 1180:e230 | 104d:9066 | Ricoh           | R5U2xx (R5U230 / R5U2... | 100%   |          | A11EA53B6C |
 | 1180:e230 | 104d:9069 | Ricoh           | R5U2xx (R5U230 / R5U2... | 100%   |          | C8B9D21B89 |
-| 1180:e230 | 104d:9071 | Ricoh           | R5U2xx (R5U230 / R5U2... | 100%   |          | 7C6918A884 |
+| 1180:e230 | 104d:9071 | Ricoh           | R5U2xx (R5U230 / R5U2... | 100%   |          | 7929D5AB9C |
 | 1180:e230 | 104d:9072 | Ricoh           | R5U2xx (R5U230 / R5U2... | 100%   |          | DA9CBAC74B |
 | 1180:e230 | 1179:0001 | Ricoh           | R5U2xx (R5U230 / R5U2... | 100%   |          | E77127AAC2 |
 | 1180:e230 | 1179:ff40 | Ricoh           | R5U2xx (R5U230 / R5U2... | 100%   |          | C8BC53F831 |
@@ -602,17 +603,17 @@ Probe  — latest probe ID with missed driver for the device.
 | 1180:e232 | 104d:9095 | Ricoh           | System peripheral        | 100%   |          | FBA8485786 |
 | 1180:e232 | 104d:9097 | Ricoh           | System peripheral        | 100%   |          | 7685534B8E |
 | 1180:e232 | 1179:0001 | Ricoh           | System peripheral        | 100%   |          | 8F76C37692 |
-| 14e4:16be | 1025:0504 | Broadcom Lim... | BCM57765/57785 MS Car... | 100%   |          | ABD2163725 |
+| 14e4:16be | 1025:0504 | Broadcom Lim... | BCM57765/57785 MS Car... | 100%   |          | EB4279887A |
 | 14e4:16be | 1025:0599 | Broadcom Lim... | BCM57765/57785 MS Car... | 100%   |          | 3689EE7B19 |
 | 14e4:16be | 1025:0605 | Broadcom Lim... | BCM57765/57785 MS Car... | 100%   |          | 4ABA261C6D |
-| 14e4:16be | 1025:0647 | Broadcom Lim... | BCM57765/57785 MS Car... | 100%   |          | 7A03EA8DC5 |
-| 14e4:16bf | 1025:0504 | Broadcom Lim... | BCM57765/57785 xD-Pic... | 100%   |          | ABD2163725 |
+| 14e4:16be | 1025:0647 | Broadcom Lim... | BCM57765/57785 MS Car... | 100%   |          | BF475CF23D |
+| 14e4:16bf | 1025:0504 | Broadcom Lim... | BCM57765/57785 xD-Pic... | 100%   |          | EB4279887A |
 | 14e4:16bf | 1025:0599 | Broadcom Lim... | BCM57765/57785 xD-Pic... | 100%   |          | 3689EE7B19 |
 | 14e4:16bf | 1025:0605 | Broadcom Lim... | BCM57765/57785 xD-Pic... | 100%   |          | 4ABA261C6D |
-| 14e4:16bf | 1025:0647 | Broadcom Lim... | BCM57765/57785 xD-Pic... | 100%   |          | 7A03EA8DC5 |
+| 14e4:16bf | 1025:0647 | Broadcom Lim... | BCM57765/57785 xD-Pic... | 100%   |          | BF475CF23D |
 | 197b:2384 | 1019:2238 | JMicron Tech... | xD Host Controller       | 100%   |          | 7E782321C8 |
 | 197b:2384 | 1025:013b | JMicron Tech... | xD Host Controller       | 100%   |          | 3C347BEC2E |
-| 197b:2384 | 1025:013e | JMicron Tech... | xD Host Controller       | 100%   |          | 25968E1557 |
+| 197b:2384 | 1025:013e | JMicron Tech... | xD Host Controller       | 100%   |          | B563FF6430 |
 | 197b:2384 | 1025:0142 | JMicron Tech... | xD Host Controller       | 100%   |          | E10FB8CE91 |
 | 197b:2384 | 1025:0143 | JMicron Tech... | xD Host Controller       | 100%   |          | 310A169187 |
 | 197b:2384 | 1025:0145 | JMicron Tech... | xD Host Controller       | 100%   |          | BAB0D5B451 |
@@ -636,7 +637,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 197b:2384 | 103c:7010 | JMicron Tech... | xD Host Controller       | 100%   |          | 6E70B36184 |
 | 197b:2384 | 1043:1a07 | JMicron Tech... | xD Host Controller       | 100%   |          | E2CEE58582 |
 | 197b:2384 | 1179:fd30 | JMicron Tech... | xD Host Controller       | 100%   |          | 891CD49EC9 |
-| 197b:2384 | 1179:ff02 | JMicron Tech... | xD Host Controller       | 100%   |          | 619A9FDEE8 |
+| 197b:2384 | 1179:ff02 | JMicron Tech... | xD Host Controller       | 100%   |          | 17C890C4D4 |
 | 197b:2384 | 1179:ff08 | JMicron Tech... | xD Host Controller       | 100%   |          | F2679655D8 |
 | 197b:2384 | 152d:0834 | JMicron Tech... | xD Host Controller       | 100%   |          | C6D0242C42 |
 | 197b:2384 | 1558:0806 | JMicron Tech... | xD Host Controller       | 100%   |          | F3BF4D62C0 |
@@ -661,11 +662,11 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Usb controller (PCI)
 
-2 out of 9632 (0.02%)
+2 out of 9685 (0.02%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
-| 1106:3483 | 1458:5007 | VIA Technolo... | VL805 USB 3.0 Host Co... | 0.8%   | 3.14.44  | 96703A2AD7 |
+| 1106:3483 | 1458:5007 | VIA Technolo... | VL805 USB 3.0 Host Co... | 0.7%   | 3.14.44  | 96703A2AD7 |
 | 8086:22b7 | 8086:7270 | Intel           | USB Controller           | 8.3%   | 4.9.9    | 0533FA1449 |
 
 USB Devices
@@ -710,7 +711,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Camera (USB)
 
-22 out of 1257 (1.75%)
+23 out of 1262 (1.82%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
@@ -729,6 +730,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 0ac8:c40a | Z-Star Micro... | A4 TECH USB2.0 PC Cam... | 0.4%   | 3.10.34  | B2C845B843 |
 | 0b97:8381 | O2 Micro        | Mini S USB2.0 Camera     | 100%   |          | 74DE04A0B0 |
 | 0bda:58be | Realtek Semi... | Laptop_Integrated_Web... | 25%    | 4.1.15   | A7211B4E35 |
+| 0c45:6350 | Microdia        | USB 2.0 Camera           | 100%   |          | 34DDCDDC0E |
 | 0e8d:200b | MediaTek        | Power                    | 100%   |          | F2CD8A3FFB |
 | 174f:5a35 | Syntek          | Sonix 1.3MPixel USB 2... | 2.1%   | 3.14.33  | 0A87DE5887 |
 | 174f:6a33 | Syntek          | Web Cam - Asus F3SA, ... | 100%   |          | 932CA241F8 |
@@ -765,8 +767,8 @@ Probe  — latest probe ID with missed driver for the device.
 | 076b:4321 | OmniKey         | CardMan 4321             | 100%   |          | 3191678465 |
 | 08e6:3438 | Gemalto (was... | GemPC Key SmartCard R... | 100%   |          | 6BDD8BE020 |
 | 08e6:34ec | Gemalto (was... | Compact Smart Card Re... | 100%   |          | 0A15E23212 |
-| 0a5c:5800 | Broadcom        | BCM5880 Secure Applic... | 98.7%  | 3.10.36  | 7BB580CCF4 |
-| 0a5c:5801 | Broadcom        | BCM5880 Secure Applic... | 98.8%  | 3.16.7   | C714BF47FB |
+| 0a5c:5800 | Broadcom        | BCM5880 Secure Applic... | 98.7%  | 3.10.36  | D7BA6F5CB0 |
+| 0a5c:5801 | Broadcom        | BCM5880 Secure Applic... | 98.9%  | 3.16.7   | EAA58F3A1F |
 | 0a5c:5804 | Broadcom        | BCM5880 Secure Applic... | 100%   |          | 19E75EF49D |
 | 0a5c:5832 | Broadcom        | 5880                     | 100%   |          | 364F29C9B1 |
 | 0a89:0025 | Aktiv           | Rutoken lite             | 50%    | 4.1.25   | 8FA80B8A39 |
@@ -776,7 +778,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 0c4b:9102 | Reiner SCT K... | cyberJack RFID basis ... | 100%   |          | D772023A07 |
 | 0ca6:00a0 | Castles Tech... | EZCCID Smart Card Reader | 100%   |          | 3DC7A36CB3 |
 | 0dc3:1004 | Athena Smart... | ASEDrive CCID            | 100%   |          | FB13C4ACE3 |
-| 147e:2020 | Upek            | TouchChip Fingerprint... | 100%   |          | 03458B7ACF |
+| 147e:2020 | Upek            | TouchChip Fingerprint... | 100%   |          | 8303D263CE |
 | 17ef:1003 | Lenovo          | Integrated Smart Card... | 100%   |          | 33492B52D5 |
 | 23a0:0004 | BIFIT           | iBank2Key                | 100%   |          | A8A89AC09A |
 | 24dc:0101 | ARDS            | JaCarta                  | 100%   |          | DA308A78C4 |
@@ -792,7 +794,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Disk (USB)
 
-6 out of 916 (0.66%)
+6 out of 918 (0.65%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
@@ -805,7 +807,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Dvb card (USB)
 
-3 out of 16 (18.75%)
+3 out of 17 (17.65%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
@@ -821,34 +823,34 @@ Probe  — latest probe ID with missed driver for the device.
 |-----------|-----------------|--------------------------|--------|----------|------------|
 | 0483:2016 | STMicroelect... | Fingerprint Reader       | 100%   |          | ED5A70B226 |
 | 05ba:0002 | DigitalPersona  | Fingerprint Scanner, ... | 100%   |          | AE361E5F23 |
-| 08ff:1600 | AuthenTec       | AES1600                  | 100%   |          | D02118A5F4 |
+| 08ff:1600 | AuthenTec       | AES1600                  | 100%   |          | B563FF6430 |
 | 08ff:168b | AuthenTec       | Fingerprint Sensor       | 100%   |          | E77127AAC2 |
 | 08ff:168f | AuthenTec       | AES1660 Fingerprint S... | 100%   |          | 2192F26242 |
 | 08ff:2500 | AuthenTec       | AES2501                  | 100%   |          | 4DCFB332DF |
 | 08ff:2550 | AuthenTec       | AES2550 Fingerprint S... | 100%   |          | 9218F197A1 |
-| 08ff:2580 | AuthenTec       | AES2501 Fingerprint S... | 100%   |          | 4B357721BC |
+| 08ff:2580 | AuthenTec       | AES2501 Fingerprint S... | 100%   |          | E5C0601D04 |
 | 08ff:2665 | AuthenTec       | Fingerprint Sensor       | 100%   |          | 6996375996 |
 | 08ff:2683 | AuthenTec       | Fingerprint Sensor       | 100%   |          | FF16BAA7D4 |
 | 08ff:2691 | AuthenTec       | Fingerprint Sensor       | 100%   |          | 79E75DF44E |
 | 08ff:2810 | AuthenTec       | AES2810                  | 100%   |          | 0DB5880016 |
-| 138a:0001 | Validity Sen... | VFS101 Fingerprint Re... | 100%   |          | 85B993F0B1 |
+| 138a:0001 | Validity Sen... | VFS101 Fingerprint Re... | 100%   |          | 8CB1C6C855 |
 | 138a:0005 | Validity Sen... | VFS301 Fingerprint Re... | 100%   |          | C11A7BCF0D |
 | 138a:0007 | Validity Sen... | VFS451 Fingerprint Re... | 100%   |          | 759D141031 |
 | 138a:0008 | Validity Sen... | VFS300 Fingerprint Re... | 100%   |          | D3246E9947 |
 | 138a:0010 | Validity Sen... | VFS Fingerprint sensor   | 100%   |          | E6F26F46C2 |
-| 138a:0011 | Validity Sen... | VFS5011 Fingerprint R... | 100%   |          | A9C4F5D1FA |
+| 138a:0011 | Validity Sen... | VFS5011 Fingerprint R... | 100%   |          | C35DC55CED |
 | 138a:0017 | Validity Sen... | VFS 5011 fingerprint ... | 100%   |          | 857D44611E |
 | 138a:0018 | Validity Sen... | Fingerprint scanner      | 100%   |          | B66D555C49 |
 | 138a:003c | Validity Sen... | VFS471 Fingerprint Re... | 100%   |          | AD80B34D19 |
 | 138a:003d | Validity Sen... | VFS491                   | 100%   |          | 43578C0823 |
-| 138a:003f | Validity Sen... | VFS495 Fingerprint Re... | 100%   |          | 732146CDFE |
+| 138a:003f | Validity Sen... | VFS495 Fingerprint Re... | 100%   |          | 80BA1F23B5 |
 | 138a:0050 | Validity Sen... | Swipe Fingerprint Sensor | 100%   |          | 859218E7D2 |
 | 138a:0090 | Validity Sen... | VFS7500 Touch Fingerp... | 100%   |          | 6FA0843228 |
 | 138a:0091 | Validity Sen... | VFS7552 Touch Fingerp... | 100%   |          | 8E3B752DEE |
 | 147e:1000 | Upek            | Biometric Touchchip/T... | 100%   |          | CB763F4F13 |
 | 147e:1001 | Upek            | TCS5B Fingerprint sensor | 100%   |          | C8B9D21B89 |
 | 147e:1002 | Upek            | Biometric Touchchip/T... | 100%   |          | 1A7FD252F8 |
-| 147e:2016 | Upek            | Biometric Touchchip/T... | 100%   |          | DA130A38C6 |
+| 147e:2016 | Upek            | Biometric Touchchip/T... | 100%   |          | E8FE24FA20 |
 | 1c7a:0603 | LighTuning T... | EgisTec ES603            | 100%   |          | B0EBF85C1D |
 | 1c7a:0801 | LighTuning T... | Fingerprint Reader       | 100%   |          | A91D5CF03E |
 
@@ -869,11 +871,11 @@ Probe  — latest probe ID with missed driver for the device.
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
-| 0529:0001 | Aladdin Know... | HASP copy protection ... | 100%   |          | 02999726B1 |
+| 0529:0001 | Aladdin Know... | HASP copy protection ... | 100%   |          | 35AA872865 |
 
 ### Hub (USB)
 
-1 out of 182 (0.55%)
+1 out of 184 (0.54%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
@@ -898,16 +900,16 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Input/keyboard (USB)
 
-2 out of 814 (0.25%)
+2 out of 817 (0.24%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
-| 0a5c:4502 | Broadcom        | Keyboard (Boot Interf... | 1.2%   | 3.0.28   | 0C3E26BCE7 |
+| 0a5c:4502 | Broadcom        | Keyboard (Boot Interf... | 1.1%   | 3.0.28   | 0C3E26BCE7 |
 | 0b05:17fd | ASUSTek Comp... | ASUS ROG Macrokey        | 33.3%  | 3.14.44  | C5777BA928 |
 
 ### Input/mouse (USB)
 
-6 out of 735 (0.82%)
+6 out of 739 (0.81%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
@@ -939,7 +941,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Net/wireless (USB)
 
-28 out of 124 (22.58%)
+28 out of 125 (22.40%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
@@ -950,7 +952,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 0b05:17d1 | ASUSTek Comp... | AC51 802.11a/b/g/n/ac... | 100%   |          | 3CBF6D38BA |
 | 0b05:17db | ASUSTek Comp... | USB-AC50 802.11a/b/g/... | 100%   |          | 93C92CF446 |
 | 0b05:1817 | ASUSTek Comp... | USB-AC68 802.11a/b/g/... | 100%   |          | 9639F147B5 |
-| 0bda:0811 | Realtek Semi... | 802.11n WLAN Adapter     | 100%   |          | 90A60D19D5 |
+| 0bda:0811 | Realtek Semi... | 802.11ac WLAN Adapter    | 100%   |          | AB74FDC0F5 |
 | 0bda:8179 | Realtek Semi... | RTL8188EUS 802.11n Wi... | 0.5%   | 3.14.25  | 1678EE56C3 |
 | 0bda:818b | Realtek Semi... | ACT-WNP-UA-005 802.11... | 55.6%  | 4.9.9    | 52A6238F08 |
 | 0bda:8812 | Realtek Semi... | RTL8812AU 802.11a/b/g... | 25%    | 4.1.38   | 40AF662959 |
@@ -961,7 +963,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 13b1:003e | Linksys         | AE6000 802.11a/b/g/n/... | 100%   |          | 6F68EDE0BD |
 | 13b1:003f | Linksys         | WUSB6300 802.11a/b/g/... | 80%    | 4.1.19   | A0B41E7AB4 |
 | 13b1:0042 | Linksys         | WUSB6100M 802.11a/b/g... | 100%   |          | 5155142A94 |
-| 148f:7601 | Ralink Techn... | MT7601U Wireless Adapter | 31.3%  | 3.14.33  | B0340A413E |
+| 148f:7601 | Ralink Techn... | MT7601U Wireless Adapter | 30.9%  | 3.14.33  | B0340A413E |
 | 148f:760b | Ralink Techn... | MT7601U Wireless Adapter | 37.5%  | 3.14.33  | 335F9F48EE |
 | 148f:761a | Ralink Techn... | MT7610U ("Archer T2U"... | 100%   |          | C0ED6FD808 |
 | 2001:3314 | D-Link          | 802.11n WLAN Adapter     | 100%   |          | 1EE95C9EF0 |
@@ -969,8 +971,8 @@ Probe  — latest probe ID with missed driver for the device.
 | 2001:3319 | D-Link          | Wireless N Nano USB A... | 83.3%  | 4.1.38   | C5C35CEA92 |
 | 2357:0101 | Realtek         | 802.11n NIC              | 50%    | 4.1.25   | 39787584D1 |
 | 2357:0103 | Realtek         | Archer T4UH wireless ... | 50%    | 3.14.44  | D804242BA9 |
-| 2357:0109 | Realtek         | 802.11n WLAN Adapter     | 40%    | 4.9.9    | 8DE11EB42D |
-| 2357:010c | Realtek         | 802.11n NIC              | 66.7%  | 4.9.41   | 27F51AD07D |
+| 2357:0109 | Realtek         | 802.11n WLAN Adapter     | 36.4%  | 4.9.9    | 8DE11EB42D |
+| 2357:010c | Realtek         | TL-WN722N v2             | 50%    | 4.9.41   | 27F51AD07D |
 
 ### Network (USB)
 
