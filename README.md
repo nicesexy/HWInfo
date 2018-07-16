@@ -16,7 +16,7 @@ by the hw-probe tool (https://github.com/linuxhw/hw-probe):
 
     sudo hw-probe -all -upload
 
-Total reports: 29812.
+Total reports: 29806.
 
 Contents
 --------
@@ -122,7 +122,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Communication controller (PCI)
 
-100 out of 1240 (8.06%)
+103 out of 1237 (8.33%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -159,8 +159,11 @@ Probe  — latest probe ID with missed driver for the device.
 | 8086:1c3a | 1043:844d | Intel           | 6 Series/C200 Series ... | 0.1%   | 3.0.38   | 1678EE56C3 |
 | 8086:1c3a | 17aa:3975 | Intel           | 6 Series/C200 Series ... | 0.9%   | 3.10.34  | 2239D316E8 |
 | 8086:1d3a | 15d9:0628 | Intel           | C600/X79 series chips... | 100%   |          | 99E743CA9E |
+| 8086:1d3a | 15d9:0636 | Intel           | C600/X79 series chips... | 100%   |          | F85B8F500E |
 | 8086:1d3b | 15d9:0628 | Intel           | C600/X79 series chips... | 100%   |          | 99E743CA9E |
+| 8086:1d3b | 15d9:0636 | Intel           | C600/X79 series chips... | 100%   |          | F85B8F500E |
 | 8086:1d3b | 8086:357e | Intel           | C600/X79 series chips... | 100%   |          | DF1B417E9A |
+| 8086:1e3a | 1849:1e3a | Intel           | 7 Series/C210 Series ... | 1.4%   | 3.10.0   | 8505F4654F |
 | 8086:2e44 | 8086:0025 | Intel           | 4 Series Chipset HECI... | 100%   |          | 8C4EFA23E2 |
 | 8086:3b64 | 1043:1c77 | Intel           | 5 Series/3400 Series ... | 1.2%   | 3.14.25  | 7FDEE4E7BB |
 | 8086:5a9a | 8086:7270 | Intel           | Celeron N3350/Pentium... | 25%    | 4.9.60   | 8ADD68C95A |
@@ -259,102 +262,204 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Graphics card (PCI)
 
-88 out of 6437 (1.37%)
+190 out of 5663 (3.36%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
 | 1002:15dd | 1043:876b | AMD/ATI         | Raven Ridge [Radeon V... | 100%   |          | A04FA68080 |
-| 1002:5961 | 174b:7c13 | AMD/ATI         | RV280 [Radeon 9200]      | 33.3%  | 3.14.44  | 1E8F8E806F |
+| 1002:4c4d | 1002:4c4d | AMD/ATI         | Rage Mobility AGP 2x ... | 100%   |          | 5C43AB36E8 |
 | 1002:5b70 | 0000:0001 | ATI Technolo... | RV370 [Radeon X300 SE]   | 100%   |          | 8E9A9E1E93 |
-| 1002:6611 | 1b0a:90c4 | AMD/ATI         | Oland [Radeon HD 8570... | 9.1%   | 4.1.25   | 79B097F13A |
-| 1002:6613 | 1787:2335 | AMD/ATI         | Oland PRO [Radeon R7 ... | 14.3%  | 4.1.15   | 6A91010C14 |
+| 1002:6600 | 103c:194d | AMD/ATI         | Mars [Radeon HD 8670A... | 7.1%   | 3.14.25  | 5145FE5675 |
+| 1002:6600 | 103c:195d | ATI Technolo... | VGA compatible contro... | 100%   |          | 1A786FF081 |
+| 1002:6600 | 144d:c708 | AMD/ATI         | Mars [Radeon HD 8670A... | 33.3%  | 4.1.15   | D8F94CA15D |
+| 1002:6601 | 144d:c0e8 | AMD/ATI         | Mars [Radeon HD 8730M]   | 75%    | 4.8.12   | 74BA47C62B |
+| 1002:6660 | 1028:05db | ATI Technolo... | Display controller       | 100%   |          | 3FEDAA45BD |
+| 1002:6660 | 103c:2164 | ATI Technolo... | Sun XT [Radeon HD 867... | 100%   |          | 7376903DCA |
+| 1002:6740 | 103c:3388 | AMD/ATI         | Whistler [Radeon HD 6... | 16.7%  | 3.14.44  | 282B2E66CA |
+| 1002:6741 | 17aa:3976 | AMD/ATI         | Whistler [Radeon HD 6... | 7.7%   | 4.1.15   | 70A3F923C2 |
+| 1002:6760 | 103c:1672 | AMD/ATI         | Seymour [Radeon HD 64... | 7.1%   | 3.14.44  | 4F9C19A9C0 |
+| 1002:6770 | 17aa:3623 | AMD/ATI         | Caicos [Radeon HD 640... | 25%    | 4.1.15   | 02882EF37B |
+| 1002:6779 | 1043:03da | AMD/ATI         | Caicos [Radeon HD 645... | 1.1%   | 3.10.34  | 9734ABB0D4 |
 | 1002:6779 | 1787:3000 | AMD/ATI         | Caicos [Radeon HD 645... | 50%    | 4.9.9    | A03EA38833 |
 | 1002:67df | 1002:0b37 | AMD/ATI         | Ellesmere [Polaris10]    | 100%   |          | 5CC9EEEBFE |
-| 1002:67df | 1043:04b0 | AMD/ATI         | Ellesmere [Radeon RX ... | 75%    | 4.9.60   | 713B99FFC5 |
-| 1002:67ef | 1043:04b2 | AMD/ATI         | Baffin [Radeon RX 460... | 50%    | 4.9.20   | 0E0A089DEF |
 | 1002:67ef | 174b:e348 | AMD/ATI         | Baffin [Radeon RX 460... | 20%    | 4.9.20   | 72DD80DA38 |
-| 1002:67ff | 1458:22fb | AMD/ATI         | Baffin [Radeon RX 560]   | 50%    | 4.9.60   | BE6A2708EB |
+| 1002:6819 | 1043:045b | AMD/ATI         | Pitcairn PRO [Radeon ... | 28.6%  | 3.14.33  | A12C16610A |
+| 1002:6819 | 174b:a001 | AMD/ATI         | Pitcairn PRO [Radeon ... | 50%    | 4.9.9    | 97B72D7509 |
+| 1002:6821 | 1028:05ee | AMD/ATI         | Venus XT [Radeon HD 8... | 22.2%  | 3.14.44  | 31B0BECCAB |
+| 1002:6823 | 1028:05eb | AMD/ATI         | Venus PRO [Radeon HD ... | 28.6%  | 3.14.44  | A06AAF3EA2 |
+| 1002:683d | 1462:2710 | AMD/ATI         | Cape Verde XT [Radeon... | 33.3%  | 4.1.15   | 5599435B69 |
+| 1002:683f | 174b:a001 | AMD/ATI         | Cape Verde PRO [Radeo... | 50%    | 4.9.76   | 45686E785E |
+| 1002:6840 | 1028:0598 | AMD/ATI         | Thames [Radeon HD 750... | 5.6%   | 3.14.25  | 988B8C4B4A |
+| 1002:6840 | 103c:1840 | ATI Technolo... | Thames [Radeon HD 750... | 14.3%  | 3.14.44  | B0552C0AF2 |
+| 1002:6840 | 103c:1842 | ATI Technolo... | VGA compatible contro... | 10%    | 3.14.44  | 2266C4AA6C |
+| 1002:6840 | 144d:c0d8 | AMD/ATI         | Thames [Radeon HD 750... | 8.3%   | 3.14.22  | 935529F421 |
+| 1002:6841 | 103c:17f4 | AMD/ATI         | Thames [Radeon HD 755... | 22.2%  | 3.14.44  | C79BD3EFCD |
+| 1002:6841 | 104d:90ac | AMD/ATI         | Thames [Radeon HD 755... | 2.3%   | 3.10.19  | A41A94F4F5 |
+| 1002:68a1 | 1025:0475 | ATI Technolo... | Broadway PRO [Mobilit... | 100%   |          | 3B1F271BB2 |
+| 1002:68e0 | 144d:c553 | AMD/ATI         | Park [Mobility Radeon... | 25%    | 3.14.44  | EEB54D2D46 |
+| 1002:68e4 | 103c:1411 | AMD/ATI         | Robson CE [AMD Radeon... | 11.1%  | 3.10.34  | EEC30310B0 |
 | 1002:68e4 | 1043:1c92 | AMD/ATI         | Robson CE [Radeon HD ... | 4.5%   | 3.14.44  | 7FDEE4E7BB |
+| 1002:68e4 | 17aa:397a | AMD/ATI         | Robson CE [Radeon HD ... | 7.3%   | 3.10.34  | 3067EF258B |
 | 1002:6900 | 103c:2269 | AMD/ATI         | Topaz XT [Radeon R7 M... | 25%    | 4.9.20   | 912D4C6523 |
-| 1002:6900 | 103c:226b | AMD/ATI         | Topaz XT [Radeon R7 M... | 50%    | 3.14.53  | 1A71B0CAF6 |
+| 1002:6900 | 103c:226b | AMD/ATI         | Topaz XT [Radeon R7 M... | 60%    | 4.9.20   | 1A71B0CAF6 |
 | 1002:6900 | 103c:22c8 | AMD/ATI         | Topaz XT [Radeon R7 M... | 66.7%  | 4.9.41   | 91B2B00C8A |
 | 1002:6900 | 103c:8229 | AMD/ATI         | Topaz XT [Radeon R7 M... | 66.7%  | 4.10.0   | 1E1F16D2E9 |
-| 1002:6938 | 1043:04f5 | AMD/ATI         | Tonga XT / Amethyst X... | 12.5%  | 4.1.22   | 0E1E35C6E2 |
-| 1002:6939 | 148c:9380 | AMD/ATI         | Tonga PRO [Radeon R9 ... | 50%    | 4.9.20   | EC8854521E |
+| 1002:6938 | 1043:04f5 | AMD/ATI         | Tonga XT / Amethyst X... | 33.3%  | 4.5.5    | 0E1E35C6E2 |
 | 1002:6939 | 1682:9380 | AMD/ATI         | Tonga PRO [Radeon R9 ... | 100%   |          | A3F6229CAA |
-| 1002:6939 | 174b:e308 | AMD/ATI         | Tonga PRO [Radeon R9 ... | 9.1%   | 4.1.16   | 77EF398855 |
-| 1002:699f | 1458:22f2 | AMD/ATI         | Lexa PRO [Radeon RX 550] | 100%   |          | 96683C37E1 |
-| 1002:699f | 1462:8a90 | AMD/ATI         | Lexa PRO [Radeon RX 550] | 100%   |          | 100AA405E8 |
-| 1002:9851 | 1025:088c | AMD/ATI         | Mullins [Radeon R4/R5... | 50%    | 4.0.4    | D0E8E1E8D9 |
+| 1002:6939 | 174b:e308 | AMD/ATI         | Tonga PRO [Radeon R9 ... | 33.3%  | 4.9.60   | 77EF398855 |
+| 1002:699f | 1462:8a90 | AMD/ATI         | Lexa PRO [Radeon RX 550] | 100%   |          | 0B359B9A7F |
+| 1002:9616 | 1043:8388 | AMD/ATI         | RS780L [Radeon 3000]     | 2.2%   | 3.14.44  | 8A29337DB7 |
+| 1002:9714 | 1849:9714 | AMD/ATI         | RS880 [Radeon HD 4290]   | 50%    | 4.1.25   | CAFF866F87 |
+| 1002:9830 | 1043:8623 | AMD/ATI         | Kabini [Radeon HD 840... | 3.1%   | 3.14.44  | 7A3C73F361 |
+| 1002:9851 | 1025:088c | AMD/ATI         | Mullins [Radeon R4/R5... | 100%   |          | D0E8E1E8D9 |
 | 1002:9851 | 103c:2269 | AMD/ATI         | Mullins [Radeon R4/R5... | 25%    | 4.9.20   | 912D4C6523 |
-| 1002:9851 | 103c:226b | AMD/ATI         | Mullins [Radeon R4/R5... | 16.7%  | 3.14.53  | 8016AF5575 |
-| 1002:9851 | 103c:22c2 | AMD/ATI         | Mullins [Radeon R4/R5... | 66.7%  | 4.1.8    | 4989738540 |
+| 1002:9851 | 103c:226b | AMD/ATI         | Mullins [Radeon R4/R5... | 20%    | 4.1.34   | 8016AF5575 |
 | 1002:9851 | 103c:22cd | AMD/ATI         | Mullins [Radeon R4/R5... | 100%   |          | 46004F2E8E |
-| 1002:9851 | 17aa:3801 | AMD/ATI         | Mullins [Radeon R4/R5... | 6.5%   | 4.1.15   | A30A019453 |
-| 1002:9851 | 17aa:3819 | AMD/ATI         | Mullins [Radeon R4/R5... | 18.2%  | 4.1.15   | 6FF4E5324B |
-| 1002:9853 | 17aa:3800 | AMD/ATI         | Mullins [Radeon APU E... | 10%    | 3.14.44  | 23A8BF660D |
+| 1002:9851 | 17aa:3801 | AMD/ATI         | Mullins [Radeon R4/R5... | 28.6%  | 4.1.15   | A30A019453 |
 | 1002:9874 | 103c:80b6 | AMD/ATI         | Carrizo                  | 100%   |          | C7EEDACBF5 |
 | 1002:9874 | 17aa:5113 | AMD/ATI         | Carrizo                  | 100%   |          | 32F7318757 |
-| 1002:98e4 | 17aa:39f9 | AMD/ATI         | Stoney [Radeon R2/R3/... | 25%    | 4.9.20   | C23D0EF968 |
-| 1022:6840 |           | AMD             | VGA compatible contro... | 100%   |          | 065591BE36 |
-| 1023:2100 | 1179:0001 | Trident Micr... | CyberBlade XP4m32        | 100%   |          | F39BB50139 |
-| 102b:0522 | 8086:0103 | Matrox Elect... | MGA G200e [Pilot] Ser... | 66.7%  | 4.1.38   | DF1B417E9A |
-| 102b:0532 | 1028:0235 | Matrox Elect... | MGA G200eW WPCM450       | 100%   |          | 186F3C15DD |
-| 102b:0532 | 15d9:0006 | Matrox Elect... | MGA G200eW WPCM450       | 87.5%  | 4.1.15   | C60718AEF4 |
-| 102b:0532 | 15d9:0009 | Matrox Elect... | MGA G200eW WPCM450       | 100%   |          | BB7B1076F6 |
-| 102b:0532 | 15d9:0624 | Matrox Elect... | MGA G200eW WPCM450       | 25%    | 3.10.34  | 069356D316 |
-| 102b:0532 | 15d9:0628 | Matrox Elect... | MGA G200eW WPCM450       | 100%   |          | 99E743CA9E |
-| 102b:0533 | 103c:3381 | Matrox Elect... | MGA G200EH               | 80%    | 3.14.25  | 2D74AD691D |
-| 102b:0534 | 1014:0405 | Matrox Elect... | G200eR2                  | 100%   |          | D7CBC31CEE |
-| 1033:0165 | 1461:6510 | NEC             | Multimedia video cont... | 100%   |          | 106570BBC3 |
-| 1033:0165 | 1461:652c | NEC             | Multimedia video cont... | 100%   |          | 9D61E4EA0B |
-| 1039:6351 | 1019:5050 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | CA495AA6C4 |
-| 1039:6351 | 1019:5055 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | 7EE2739156 |
-| 1039:6351 | 1043:1812 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | 9DA40A383A |
-| 1039:6351 | 1043:19e2 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | 22B272C2D6 |
-| 1039:6351 | 1043:82c9 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | 62B1AE15F1 |
-| 1039:6351 | 1558:0804 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | 9CF9B915F2 |
-| 1039:6351 | 1631:c10b | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | B0517198DD |
-| 1039:6351 | 1734:1110 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | C34E5866A6 |
-| 1039:6351 | 1734:1125 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | A527C8D1D5 |
-| 1039:6351 | 17ff:0594 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | F248142F16 |
-| 1039:6351 | 1b0a:0007 | Silicon Inte... | 771/671 PCIE VGA Disp... | 100%   |          | E60EF0934C |
-| 104d:8087 | 104d:80ed | Sony            | Multimedia video cont... | 100%   |          | 72A578315E |
-| 10de:0866 | 1025:0160 | Nvidia          | C79 [GeForce 9400M G]    | 14.3%  | 3.14.39  | F62E893532 |
+| 1002:98e4 | 17aa:39f9 | AMD/ATI         | Stoney [Radeon R2/R3/... | 50%    | 4.9.87   | C23D0EF968 |
+| 10de:0140 | 1458:3126 | Nvidia          | NV43 [GeForce 6600 GT]   | 100%   |          | 9F8066CA65 |
+| 10de:0141 | 1043:81ee | Nvidia          | NV43 [GeForce 6600]      | 50%    | 4.1.38   | 71BC5B9631 |
+| 10de:0141 | 1458:3126 | Nvidia          | NV43 [GeForce 6600]      | 100%   |          | 7E447609BE |
+| 10de:01d3 |           | Nvidia          | G72 [GeForce 7200 GS ... | 25%    | 4.1.25   | 17445004F4 |
+| 10de:0244 | 103c:30b7 | Nvidia          | C51 [GeForce Go 6150]    | 33.3%  | 3.10.34  | 0CA0AF6291 |
+| 10de:0292 | 105b:0f03 | Nvidia          | G71 [GeForce 7900 GS]    | 50%    | 4.1.15   | 7296E03F32 |
+| 10de:031a | 104d:814f | Nvidia          | NV31M [GeForce FX Go5... | 100%   |          | 88ABDEBE09 |
+| 10de:0326 | 1462:911a | Nvidia          | NV34 [GeForce FX 5500]   | 33.3%  | 4.9.41   | FFD7AFA075 |
+| 10de:0426 | 104d:9018 | Nvidia          | G86M [GeForce 8400M GT]  | 100%   |          | 8A814A5779 |
+| 10de:0428 | 1043:1513 | Nvidia          | G86M [GeForce 8400M G]   | 20%    | 4.1.15   | E0EEE8D1CC |
+| 10de:042e | 1043:17c2 | Nvidia          | G86M [GeForce 9300M G]   | 6.7%   | 3.14.33  | 4E30CC5479 |
+| 10de:06e9 | 1043:19b2 | Nvidia          | G98M [GeForce 9300M GS]  | 1.7%   | 3.10.34  | DAADE835C6 |
+| 10de:0a28 | 103c:7001 | Nvidia          | GT216M [GeForce GT 230M] | 11.1%  | 3.10.34  | 2E7C7E635C |
+| 10de:0a34 | 1642:3928 | Nvidia          | GT216 [GeForce GT 240M]  | 100%   |          | 0921BB94E0 |
+| 10de:0a65 | 1458:3629 | Nvidia          | GT218 [GeForce 210]      | 8.3%   | 4.1.15   | 8C3172A9F3 |
+| 10de:0fc1 | 1043:83f3 | Nvidia          | GK107 [GeForce GT 640]   | 2.9%   | 3.14.44  | 9C1344C76E |
+| 10de:0fc2 | 10de:093c | Nvidia          | GK107 [GeForce GT 630... | 50%    | 4.9.20   | 84224B6ADA |
+| 10de:0fc6 | 1043:8427 | Nvidia          | GK107 [GeForce GTX 650]  | 14.3%  | 3.14.44  | 4E0DC79606 |
+| 10de:0fc6 | 1462:2802 | Nvidia          | GK107 [GeForce GTX 650]  | 100%   |          | 128A90D3B7 |
+| 10de:1086 | 1043:8387 | Nvidia          | GF110 [GeForce GTX 57... | 16.7%  | 3.14.22  | BC8749820A |
+| 10de:11c6 | 1043:8446 | Nvidia          | GK106 [GeForce GTX 65... | 25%    | 3.14.44  | 3730F9BE71 |
+| 10de:11c8 | 1569:11c8 | Nvidia          | GK106 [GeForce GTX 65... | 12.5%  | 4.1.15   | CE85A9AD63 |
+| 10de:1244 |           | Nvidia          | GF116 [GeForce GTX 55... | 4.8%   | 3.14.44  | 77B31246B3 |
+| 10de:1287 | 1043:84f5 | Nvidia          | GK208 [GeForce GT 730]   | 50%    | 4.1.16   | 8AA494134E |
+| 10de:1287 | 1043:8501 | Nvidia          | GK208B [GeForce GT 730]  | 33.3%  | 4.1.15   | 930D8056C3 |
+| 10de:1287 | 10de:1083 | Nvidia          | GK208 [GeForce GT 730]   | 100%   |          | 5E5919C697 |
+| 10de:1287 | 10de:1287 | Nvidia          | GK208B [GeForce GT 730]  | 14.3%  | 4.1.25   | 8603D5BDF5 |
+| 10de:1288 | 1462:8c90 | Nvidia          | GK208 [GeForce GT 720]   | 33.3%  | 4.1.15   | 74EDF3551E |
+| 10de:1288 | 1569:1288 | Nvidia          | GK208 [GeForce GT 720]   | 50%    | 4.9.60   | 7E9CD09A5D |
+| 10de:1380 | 1043:84bb | Nvidia          | GM107 [GeForce GTX 75... | 50%    | 4.9.9    | E7D55807C9 |
+| 10de:1380 | 1043:84bc | Nvidia          | GM107 [GeForce GTX 75... | 20%    | 4.1.25   | 59CCFFE44E |
+| 10de:1380 | 1458:362d | Nvidia          | GM107 [GeForce GTX 75... | 33.3%  | 4.1.25   | C67CC4D736 |
+| 10de:1380 | 1462:3102 | Nvidia          | GM107 [GeForce GTX 75... | 42.9%  | 4.1.15   | 6158505A7F |
+| 10de:1381 | 1043:84f0 | Nvidia          | GM107 [GeForce GTX 750]  | 16.7%  | 4.1.15   | 8E80E31C5C |
+| 10de:1381 | 10de:1073 | Nvidia          | GM107 [GeForce GTX 750]  | 20%    | 4.9.20   | 02666C5333 |
+| 10de:1381 | 1458:362e | Nvidia          | GM107 [GeForce GTX 750]  | 80%    | 4.1.16   | FED7D6BB61 |
+| 10de:1381 | 1458:3642 | Nvidia          | GM107 [GeForce GTX 750]  | 25%    | 4.1.15   | 8276D533D6 |
+| 10de:1381 | 1462:8a9c | Nvidia          | GM107 [GeForce GTX 750]  | 25%    | 4.1.25   | 869D74402A |
+| 10de:13c2 | 1043:8508 | Nvidia          | GM204 [GeForce GTX 970]  | 100%   |          | 3DD9F6A674 |
+| 10de:13c2 | 10de:1131 | Nvidia          | GM204 [GeForce GTX 970]  | 75%    | 4.1.15   | 675FB21B01 |
+| 10de:13c2 | 1458:367a | Nvidia          | GM204 [GeForce GTX 970]  | 50%    | 4.1.15   | 3E15147646 |
+| 10de:13c2 | 1458:367b | Nvidia          | GM204 [GeForce GTX 970]  | 100%   |          | 37FD9139AF |
+| 10de:13c2 | 1462:3160 | Nvidia          | GM204 [GeForce GTX 970]  | 100%   |          | 7980C33879 |
+| 10de:13f1 | 10de:1153 | Nvidia          | VGA compatible contro... | 100%   |          | B8D85B966B |
+| 10de:1401 | 1458:36aa | Nvidia          | GM206 [GeForce GTX 960]  | 100%   |          | 1CFE050B29 |
+| 10de:1401 | 1458:36ad | Nvidia          | GM206 [GeForce GTX 960]  | 100%   |          | A8A89AC09A |
+| 10de:1401 | 1458:36b0 | Nvidia          | GM206 [GeForce GTX 960]  | 100%   |          | B99D4A956B |
+| 10de:1401 | 3842:2966 | Nvidia          | GM206 [GeForce GTX 960]  | 100%   |          | 33DA9C195D |
+| 10de:1b06 | 1043:85e2 | Nvidia          | GP102 [GeForce GTX 10... | 100%   |          | 5D1A48EE4E |
+| 10de:1b06 | 3842:6696 | Nvidia          | GP102 [GeForce GTX 10... | 100%   |          | 35DAE7072E |
+| 10de:1b80 | 1458:3717 | Nvidia          | GP104 [GeForce GTX 1080] | 100%   |          | 3F1B997D89 |
+| 10de:1b81 |           | Nvidia          | VGA compatible contro... | 50%    | 4.9.20   | D326BF619F |
+| 10de:1b81 | 1043:859f | Nvidia          | GP104 [GeForce GTX 1070] | 100%   |          | D68BCE418A |
+| 10de:1b81 | 1043:85a0 | Nvidia          | GP104 [GeForce GTX 1070] | 100%   |          | 691E406FAF |
+| 10de:1b81 | 10b0:1b81 | Nvidia          | GP104 [GeForce GTX 1070] | 100%   |          | 8FB6824328 |
+| 10de:1b81 | 1458:36fc | Nvidia          | GP104 [GeForce GTX 1070] | 50%    | 4.9.20   | CD8505D488 |
+| 10de:1c02 |           | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | 8F819D70FB |
+| 10de:1c02 | 1043:85b1 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | 39F3C43A6B |
+| 10de:1c02 | 1462:3287 | Nvidia          | GP106 [GeForce GTX 10... | 16.7%  | 4.13.0   | CCB4D48D08 |
+| 10de:1c02 | 1462:8c95 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | 43FAFA60D7 |
+| 10de:1c02 | 3842:6162 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | F599EB6750 |
+| 10de:1c03 |           | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | 74B6562CCD |
+| 10de:1c03 | 1043:85a6 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | EB6CD37E93 |
+| 10de:1c03 | 1043:85ae | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | 7DC13C6D0D |
 | 10de:1c03 | 1043:85e0 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | 2C9527A545 |
-| 10de:1c81 | 1462:8c97 | Nvidia          | GP107 [GeForce GTX 1050] | 10%    | 4.1.25   | 4EEB9D6E58 |
-| 14f1:5851 |           | Conexant Sys... | Conexant Multimedia v... | 100%   |          | 88FFC14224 |
-| 1797:6804 |           | Intersil Tec... | Multimedia video cont... | 100%   |          | B2C845B843 |
-| 1797:6804 | 1797:6804 | Intersil Tec... | Multimedia video cont... | 100%   |          | B2C845B843 |
-| 1a03:2000 | 15d9:0884 | ASPEED Techn... | ASPEED Graphics Family   | 100%   |          | 9B891A8CD9 |
-| 1a03:2000 | 1a03:2000 | ASPEED Techn... | ASPEED Graphics Family   | 75%    | 4.1.34   | 67BFE1B221 |
-| 1a0a:6200 | 1461:6201 |                 | Multimedia video cont... | 100%   |          | 3D855922B8 |
-| 1a0a:6202 | 1461:6201 |                 | Multimedia video cont... | 100%   |          | 069D08FB9E |
-| 1a0a:6202 | 1461:6205 |                 | Multimedia video cont... | 100%   |          | DCE3E0D766 |
-| 1a0a:6202 | 1461:6216 |                 | Multimedia video cont... | 100%   |          | C7E0EC2ADD |
-| 1a0a:6202 | 1461:621a |                 | Multimedia video cont... | 100%   |          | C7A8CDAFE8 |
-| 1ade:3038 | 4254:5580 | Spin Master     | Multimedia video cont... | 25%    | 4.1.4    | C4768A03B3 |
-| 5254:0820 |           |                 | Multimedia video cont... | 100%   |          | E60DBB1D7C |
+| 10de:1c03 | 10de:1c03 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | 7CF68D5A2E |
+| 10de:1c03 | 1458:3739 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | 1DDF0EC6EC |
+| 10de:1c03 | 1458:3776 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | 28D68A2C46 |
+| 10de:1c03 | 1462:3281 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | D97CE2F08B |
+| 10de:1c03 | 19da:1438 | Nvidia          | GP106 [GeForce GTX 10... | 100%   |          | EF4553CD64 |
+| 10de:1c81 | 10de:11c0 | Nvidia          | GP107 [GeForce GTX 1050] | 100%   |          | F748A62EBE |
+| 10de:1c81 | 10de:1c81 | Nvidia          | GP107 [GeForce GTX 1050] | 100%   |          | ABE37F9960 |
+| 10de:1c81 | 1458:372c | Nvidia          | GP107 [GeForce GTX 1050] | 100%   |          | 1A7DB52C9A |
+| 10de:1c81 | 1458:372d | Nvidia          | GP107 [GeForce GTX 1050] | 100%   |          | CAFF866F87 |
+| 10de:1c81 | 1458:3765 | Nvidia          | GP107 [GeForce GTX 1050] | 100%   |          | 11DF3C7CF1 |
+| 10de:1c81 | 1458:3766 | Nvidia          | GP107 [GeForce GTX 1050] | 100%   |          | BE505B8545 |
+| 10de:1c81 | 1462:8c97 | Nvidia          | GP107 [GeForce GTX 1050] | 100%   |          | 4EEB9D6E58 |
+| 10de:1c81 | 19da:2454 | Nvidia          | GP107 [GeForce GTX 1050] | 100%   |          | F67985779A |
+| 10de:1c82 | 1043:85d3 | Nvidia          | GP107 [GeForce GTX 10... | 100%   |          | 9B0CCBEDBA |
+| 10de:1c82 | 10b0:1c82 | Nvidia          | GP107 [GeForce GTX 10... | 100%   |          | 85FF8C6337 |
+| 10de:1c82 | 10de:1c82 | Nvidia          | GP107 [GeForce GTX 10... | 100%   |          | 4FA6B20828 |
+| 10de:1c82 | 1458:3729 | Nvidia          | GP107 [GeForce GTX 10... | 100%   |          | D18B737840 |
+| 10de:1c82 | 1462:3351 | Nvidia          | GP107 [GeForce GTX 10... | 100%   |          | D10709E24E |
+| 10de:1c82 | 19da:2454 | Nvidia          | GP107                    | 100%   |          | 1FE17AADBB |
+| 10de:1d01 | 1043:85f4 | Nvidia          | GP108 [GeForce GT 1030]  | 100%   |          | 1834F1A25A |
+| 10de:1d01 | 1462:8c98 | Nvidia          | GP108 [GeForce GT 1030]  | 100%   |          | 88411F1080 |
+| 8086:0046 | 103c:7008 | Intel           | Core Processor Integr... | 15.4%  | 3.10.34  | BD135661D2 |
+| 8086:0102 | 1043:844d | Intel           | 2nd Generation Core P... | 2%     | 3.14.44  | E2A6B707D5 |
+| 8086:0102 | 1458:d000 | Intel           | 2nd Generation Core P... | 1.4%   | 3.14.22  | C75142F476 |
+| 8086:0116 | 17aa:3975 | Intel           | 2nd Generation Core P... | 2.9%   | 3.12.21  | 2239D316E8 |
+| 8086:0152 | 1458:d000 | Intel           | Xeon E3-1200 v2/3rd G... | 7.4%   | 3.14.33  | 56D5984A14 |
+| 8086:0152 | 1849:0152 | Intel           | Xeon E3-1200 v2/3rd G... | 7.7%   | 3.14.44  | 7263661AC3 |
+| 8086:0162 | 1043:84ca | Intel           | Xeon E3-1200 v2/3rd G... | 5.9%   | 3.14.44  | 19B62D356E |
+| 8086:0162 | 1462:2111 | Intel           | Xeon E3-1200 v2/3rd G... | 28.6%  | 3.14.44  | 5940DCAB28 |
+| 8086:0162 | 1849:0162 | Intel           | Xeon E3-1200 v2/3rd G... | 25%    | 3.10.0   | 8505F4654F |
 | 8086:0f31 | 1025:0936 | Intel           | ValleyView Gen7          | 100%   |          | 1718CF1D36 |
+| 8086:0f31 | 17aa:3986 | Intel           | Atom Processor Z36xxx... | 5%     | 3.14.44  | B4E99F70A9 |
 | 8086:1616 | 1028:062b | Intel           | Broadwell-U Integrate... | 100%   |          | 0A99E4D896 |
+| 8086:1902 | 1043:8694 | Intel           | VGA compatible contro... | 21.4%  | 4.8.14   | A91734714E |
+| 8086:1902 | 1462:7996 | Intel           | HD Graphics 510          | 50%    | 4.9.20   | BFAA613B9E |
+| 8086:1902 | 8086:2212 | Intel           | HD Graphics 510          | 100%   |          | FF56929B10 |
+| 8086:1912 | 1043:8694 | Intel           | Sky Lake Integrated G... | 22.9%  | 4.9.9    | 575CE93124 |
+| 8086:1912 | 1458:d000 | Intel           | Sky Lake Integrated G... | 63.2%  | 4.9.41   | 53E6A4F263 |
+| 8086:1912 | 1849:1912 | Intel           | Sky Lake Integrated G... | 8.3%   | 4.3.3    | 5EF461260F |
+| 8086:1916 | 1025:1094 | Intel           | Sky Lake Integrated G... | 25%    | 4.9.9    | E7D6077756 |
+| 8086:1916 | 1028:06de | Intel           | HD Graphics 520          | 100%   |          | AE7AD1E7D9 |
+| 8086:1916 | 1028:06fd | Intel           | HD Graphics 520          | 100%   |          | 569785286A |
+| 8086:1916 | 103c:8079 | Intel           | Skylake GT2 [HD Graph... | 18.2%  | 4.1.15   | 82F5250E0D |
+| 8086:1916 | 103c:80a4 | Intel           | HD Graphics 520          | 33.3%  | 4.9.60   | B01FB51118 |
+| 8086:1916 | 103c:80ff | Intel           | Sky Lake Integrated G... | 83.3%  | 4.7.2    | B7B039F46E |
+| 8086:1916 | 103c:8100 | Intel           | Sky Lake Integrated G... | 100%   |          | 2B56F34E21 |
+| 8086:1916 | 103c:8101 | Intel           | Skylake GT2 [HD Graph... | 25%    | 4.9.60   | BC496704F4 |
+| 8086:1916 | 103c:820c | Intel           | HD Graphics 520          | 33.3%  | 4.9.20   | FAE1CD27F3 |
+| 8086:1916 | 1043:1ccd | Intel           | Sky Lake Integrated G... | 50%    | 4.9.20   | A4B26975E9 |
+| 8086:1916 | 1179:f822 | Intel           | HD Graphics 520          | 100%   |          | B781D8419A |
+| 8086:1916 | 17aa:3824 | Intel           | Skylake GT2 [HD Graph... | 9.1%   | 4.9.9    | 412EAC636F |
 | 8086:1916 | 17aa:382c | Intel           | Skylake GT2 [HD Graph... | 50%    | 4.9.0    | 18379EBD5C |
+| 8086:1916 | 17aa:5048 | Intel           | Sky Lake Integrated G... | 100%   |          | 842B139FE7 |
+| 8086:191b | 1028:06de | Intel           | HD Graphics 530          | 100%   |          | BC4C6EBBA7 |
 | 8086:191b | 1043:1080 | Intel           | VGA compatible contro... | 100%   |          | 5B1076EA3C |
-| 8086:22b1 | 1025:1012 | Intel           | Atom/Celeron/Pentium ... | 11.8%  | 4.9.20   | 16D1C62342 |
-| 8086:22b1 | 1043:10c0 | Intel           | Atom/Celeron/Pentium ... | 7.1%   | 4.1.25   | E6AFAB9B56 |
-| 8086:22b1 | 1043:1d5d | Intel           | Atom/Celeron/Pentium ... | 14.3%  | 4.9.20   | 27173939AA |
+| 8086:191b | 1043:1d6d | Intel           | VGA compatible contro... | 100%   |          | 9D6C0DD372 |
+| 8086:191b | 1462:1190 | Intel           | HD Graphics 530          | 16.7%  | 4.9.9    | 2B70AAB06F |
+| 8086:191b | 17aa:3802 | Intel           | Skylake Integrated Gr... | 16.7%  | 4.4.16   | 25576A8571 |
+| 8086:1921 | 17aa:39e8 | Intel           | HD Graphics 520          | 100%   |          | C3352134E9 |
+| 8086:22b0 | 1025:106e | Intel           | Atom/Celeron/Pentium ... | 100%   |          | 425D589D65 |
+| 8086:22b1 | 1025:1012 | Intel           | Atom/Celeron/Pentium ... | 13.3%  | 4.9.20   | 16D1C62342 |
+| 8086:22b1 | 1028:0725 | Intel           | Atom/Celeron/Pentium ... | 25%    | 4.9.20   | 92DCC778AC |
+| 8086:22b1 | 1043:10c0 | Intel           | Atom/Celeron/Pentium ... | 9.1%   | 4.9.9    | E6AFAB9B56 |
 | 8086:22b1 | 1558:0945 | Intel           | Atom/Celeron/Pentium ... | 8.3%   | 4.1.15   | BDAF59B6EB |
-| 8086:22b1 | 8086:2060 | Intel           | Atom/Celeron/Pentium ... | 11.1%  | 4.1.15   | 5738D326F6 |
+| 8086:27a2 | 104d:820f | Intel           | Mobile 945GM/GMS, 943... | 42.9%  | 3.14.44  | 811EFEE1FC |
 | 8086:3e91 | 1043:8694 | Intel           | VGA compatible contro... | 100%   |          | DA54361164 |
 | 8086:5912 | 1043:8694 | Intel           | HD Graphics 630          | 3.8%   | 4.4.49   | B0DE2CBA6A |
 | 8086:5912 | 1458:d000 | Intel           | VGA compatible contro... | 16.7%  | 4.9.60   | 6126E55D1A |
 | 8086:5916 | 1028:0782 | Intel           | VGA compatible contro... | 100%   |          | 49389100FC |
+| 8086:5916 | 17aa:2249 | Intel           | HD Graphics 620          | 100%   |          | BFCD766C51 |
 | 8086:5916 | 17aa:39f1 | Intel           | VGA compatible contro... | 33.3%  | 4.9.60   | 65FE9A36B5 |
 | 8086:a011 | 1462:104e | Intel           | Atom Processor D4xx/D... | 20%    | 4.1.15   | 5F15F028A8 |
-| bdbd:a11b | bdbd:a11b | Blackmagic D... | DeckLink SDI/Duo/Quad    | 100%   |          | 67BFE1B221 |
 
 ### Modem (PCI)
 
-10 out of 64 (15.62%)
+12 out of 64 (18.75%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -368,10 +473,12 @@ Probe  — latest probe ID with missed driver for the device.
 | 1543:3052 | 1543:3000 | SILICON Labo... | Intel 537 [Winmodem]     | 100%   |          | 75C969D54B |
 | 2003:8800 | 16ef:2800 | Smart Link      | LM-I56N                  | 100%   |          | 8B4AE6CF41 |
 | 8086:1040 | 8086:1000 | Intel           | 536EP Data Fax Modem     | 100%   |          | D561042A58 |
+| 8086:24c6 | 1014:0524 | Intel           | 82801DB/DBL/DBM (ICH4... | 100%   |          | BE49E35FA4 |
+| 8086:266d | 103c:3080 | Intel           | 82801FB/FBM/FR/FW/FRW... | 50%    | 4.9.9    | 0572E8425C |
 
 ### Multimedia controller (PCI)
 
-57 out of 68 (83.82%)
+58 out of 68 (85.29%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -384,6 +491,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 109e:0878 | 107d:6609 | Brooktree       | Bt878 Audio Capture      | 100%   |          | 2B35A8BCF0 |
 | 109e:0878 | 1461:0001 | Brooktree       | Bt878 Audio Capture      | 100%   |          | E8072B6F3A |
 | 109e:0878 | 1461:0002 | Brooktree       | Bt878 Audio Capture      | 100%   |          | A22609B54B |
+| 109e:0878 | 1461:0003 | Brooktree       | Bt878 Audio Capture      | 8.3%   | 3.14.25  | 7A69435C43 |
 | 109e:0878 | 1461:0004 | Brooktree       | Bt878 Audio Capture      | 100%   |          | 660B28DD52 |
 | 1131:7160 | 1461:0855 | Philips Semi... | SAA7160                  | 100%   |          | E507592DE8 |
 | 1131:7160 | 1461:0a55 | Philips Semi... | SAA7160                  | 100%   |          | 99DDBBF195 |
@@ -435,13 +543,16 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Net/ethernet (PCI)
 
-7 out of 2200 (0.32%)
+10 out of 2200 (0.45%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
 | 000c:0000 | 1043:83a3 |                 | Ethernet controller      | 100%   |          | B5189C3BF2 |
 | 10ec:0139 | 10bd:0320 | Realtek Semi... | RTL-8139/8139C/8139C+... | 100%   |          | 305C35F50C |
 | 10ec:8136 | 1028:0555 | Realtek Semi... | RTL8101/2/6E PCI Expr... | 6.2%   | 4.1.15   | A7211B4E35 |
+| 10ec:8168 | 103c:180d | Realtek Semi... | RTL8111/8168/8411 PCI... | 4%     | 3.10.42  | 41A6D6B87B |
+| 10ec:8168 | 1458:e000 | Realtek Semi... | RTL8111/8168/8411 PCI... | 0%     | 2.6.32   | 765A1CCD27 |
+| 10ec:8168 | 1558:1550 | Realtek Semi... | RTL8111/8168/8411 PCI... | 2.6%   | 3.14.33  | A0EB5DA51A |
 | 1186:4200 | 1186:1103 | D-Link System   | DFE-520TX Fast Ethern... | 100%   |          | 790E740601 |
 | 14e4:52a3 | d3a6:afcd | Broadcom Lim... | Ethernet controller      | 100%   |          | 191BA97155 |
 | 8086:107c | 8086:1376 | Intel           | 82541PI Gigabit Ether... | 7.1%   | 2.6.32   | F801FAB1AD |
@@ -449,7 +560,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Net/wireless (PCI)
 
-29 out of 665 (4.36%)
+55 out of 658 (8.36%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -457,48 +568,75 @@ Probe  — latest probe ID with missed driver for the device.
 | 104c:9066 | 1086:3b04 | Texas Instru... | ACX 111 54Mbps Wirele... | 100%   |          | DBFFE622A8 |
 | 104c:9066 | 1186:3b04 | Texas Instru... | ACX 111 54Mbps Wirele... | 100%   |          | A22609B54B |
 | 10ec:8190 | 10ec:8190 | Realtek Semi... | RTL8190 802.11n PCI W... | 100%   |          | AF84B8FA95 |
-| 10ec:8821 | 1a3b:2161 | Realtek Semi... | RTL8821AE 802.11ac PC... | 10.5%  | 3.14.44  | 5EEDC9CEE8 |
-| 10ec:b723 | 1025:b734 | Realtek Semi... | RTL8723BE PCIe Wirele... | 2.7%   | 3.14.39  | 09F2C29527 |
-| 10ec:b723 | 103c:2231 | Realtek Semi... | RTL8723BE PCIe Wirele... | 25.8%  | 3.14.15  | B301F51204 |
-| 10ec:b723 | 10ec:b729 | Realtek Semi... | RTL8723BE PCIe Wirele... | 20.9%  | 3.14.44  | FD5BC52C49 |
-| 10ec:b723 | 17aa:b728 | Realtek Semi... | RTL8723BE PCIe Wirele... | 18.8%  | 3.14.39  | 02D1977887 |
-| 10ec:b723 | 17aa:b736 | Realtek Semi... | RTL8723BE PCIe Wirele... | 10.1%  | 3.14.53  | 8C16B6C71F |
-| 10ec:b723 | 1a3b:2159 | Realtek Semi... | RTL8723BE PCIe Wirele... | 3.1%   | 3.14.44  | DDF48A7B95 |
-| 10ec:b723 | 1b9a:2485 | Realtek Semi... | RTL8723BE PCIe Wirele... | 7.1%   | 4.1.19   | D57B5C86E0 |
+| 10ec:8821 | 1a3b:2161 | Realtek Semi... | RTL8821AE 802.11ac PC... | 20%    | 3.14.44  | 5EEDC9CEE8 |
+| 10ec:b723 | 1025:b734 | Realtek Semi... | RTL8723BE PCIe Wirele... | 22.2%  | 4.1.10   | DE10405623 |
+| 10ec:b723 | 103c:2231 | Realtek Semi... | RTL8723BE PCIe Wirele... | 40.5%  | 3.18.11  | B301F51204 |
+| 10ec:b723 | 10ec:b729 | Realtek Semi... | RTL8723BE PCIe Wirele... | 37.1%  | 3.17.4   | FD5BC52C49 |
+| 10ec:b723 | 10ec:b733 | Realtek Semi... | RTL8723BE PCIe Wirele... | 16.7%  | 4.1.38   | BDAF59B6EB |
+| 10ec:b723 | 11ad:1723 | Realtek Semi... | RTL8723BE PCIe Wirele... | 6.2%   | 4.9.9    | E6285FD8C3 |
+| 10ec:b723 | 17aa:b728 | Realtek Semi... | RTL8723BE PCIe Wirele... | 40%    | 3.18.14  | 02D1977887 |
+| 10ec:b723 | 17aa:b736 | Realtek Semi... | RTL8723BE PCIe Wirele... | 23.8%  | 3.18.16  | 8C16B6C71F |
+| 10ec:b723 | 1a3b:2159 | Realtek Semi... | RTL8723BE PCIe Wirele... | 6.7%   | 4.1.15   | DDF48A7B95 |
+| 10ec:b723 | 1b9a:2485 | Realtek Semi... | RTL8723BE PCIe Wirele... | 12.5%  | 4.3.3    | D57B5C86E0 |
 | 11ab:1fa6 | 1043:138f | Marvell Tech... | Marvell W8300 802.11 ... | 100%   |          | 6D747EAFAA |
 | 11ab:1faa | 11ab:1faa | Marvell Tech... | 88w8335 [Libertas] 80... | 100%   |          | D686C53485 |
 | 11ab:1faa | 1385:6b00 | Marvell Tech... | 88w8335 [Libertas] 80... | 100%   |          | 698A088620 |
-| 14c3:7630 | 103c:197c | MEDIATEK        | MT7630e 802.11bgn Wir... | 26.3%  | 4.1.3    | A7E6CBC45B |
-| 14c3:7630 | 105b:e074 | MEDIATEK        | MT7630e 802.11bgn Wir... | 47.8%  | 3.14.44  | 088B239273 |
-| 14c3:7630 | 105b:e084 | MEDIATEK        | MT7630e 802.11bgn Wir... | 66.7%  | 4.9.41   | 82C19DDA3E |
+| 14c3:7630 | 103c:197c | MEDIATEK        | MT7630e 802.11bgn Wir... | 100%   |          | A7E6CBC45B |
+| 14c3:7630 | 105b:e074 | MEDIATEK        | MT7630e 802.11bgn Wir... | 100%   |          | 088B239273 |
+| 14c3:7630 | 105b:e084 | MEDIATEK        | MT7630e 802.11bgn Wir... | 100%   |          | 82C19DDA3E |
+| 14e4:4315 | 103c:1508 | Broadcom Lim... | BCM4312 802.11b/g LP-PHY | 2.7%   | 3.14.44  | D0F06C8499 |
+| 14e4:4328 | 106b:0090 | Broadcom Lim... | BCM4321 802.11a/b/g/n    | 6.7%   | 4.1.22   | 030A81E657 |
+| 14e4:4353 | 1028:000e | Broadcom Lim... | BCM43224 802.11a/b/g/n   | 16.7%  | 4.1.15   | 68FA7AD805 |
+| 14e4:4357 | 105b:e021 | Broadcom Lim... | BCM43225 802.11b/g/n     | 4.3%   | 3.14.25  | DDD532FC51 |
+| 14e4:4358 | 105b:e040 | Broadcom Lim... | BCM43227 802.11b/g/n     | 1.3%   | 3.14.33  | 4ABA261C6D |
+| 14e4:4359 | 1043:850c | Broadcom Lim... | BCM43228 802.11a/b/g/n   | 8.8%   | 3.14.44  | 7E0E64D8B4 |
+| 14e4:4359 | 14e4:05e2 | Broadcom Lim... | BCM43228 802.11a/b/g/n   | 5.3%   | 3.10.42  | B0A5C81710 |
+| 14e4:4365 | 1028:0016 | Broadcom Lim... | BCM43142 802.11b/g/n     | 1.9%   | 3.14.33  | 07CD494317 |
+| 14e4:4365 | 103c:804a | Broadcom Lim... | BCM43142 802.11b/g/n     | 3.2%   | 4.1.15   | 226F5C39A2 |
+| 14e4:43b1 | 1043:855c | Broadcom Lim... | BCM4352 802.11ac Wire... | 14.3%  | 3.14.44  | 27E7BDA60A |
+| 14e4:4727 | 1028:0012 | Broadcom Lim... | BCM4313 802.11bgn Wir... | 6.7%   | 3.14.44  | 40D48C06A1 |
+| 14e4:4727 | 103c:1483 | Broadcom Lim... | BCM4313 802.11bgn Wir... | 0.7%   | 3.14.22  | EA7FCEAF2C |
+| 14e4:4727 | 103c:1795 | Broadcom Lim... | BCM4313 802.11bgn Wir... | 0.7%   | 3.10.42  | 06AA196398 |
+| 14e4:4727 | 105b:e042 | Broadcom Lim... | BCM4313 802.11bgn Wir... | 1%     | 3.14.15  | D148A20413 |
+| 14e4:4727 | 144f:7175 | Broadcom Lim... | BCM4313 802.11bgn Wir... | 1.8%   | 3.10.19  | 93629DD831 |
+| 14e4:4727 | 144f:7179 | Broadcom Lim... | BCM4313 802.11bgn Wir... | 0.9%   | 3.10.34  | A92AED714F |
+| 14e4:4727 | 14e4:0510 | Broadcom Lim... | BCM4313 802.11bgn Wir... | 3.4%   | 3.14.25  | B6AC5DA53E |
+| 14e4:4727 | 14e4:051b | Broadcom Lim... | BCM4313 802.11bgn Wir... | 0.8%   | 2.6.32   | 4437DCCAB2 |
+| 14e4:4727 | 14e4:0587 | Broadcom Lim... | BCM4313 802.11bgn Wir... | 3%     | 3.14.39  | 8D6C57DC63 |
+| 14e4:4727 | 14e4:0608 | Broadcom Lim... | BCM4313 802.11bgn Wir... | 1.4%   | 3.14.44  | 65C68A39C0 |
+| 14e4:4727 | 185f:051a | Broadcom Lim... | BCM4313 802.11bgn Wir... | 1.1%   | 3.14.33  | 86A1DD9578 |
 | 168c:0042 | 11ad:0806 | Qualcomm Ath... | QCA9377 802.11ac Wire... | 50%    | 4.4.0    | ECB6A89DFC |
 | 168c:0042 | 11ad:08a6 | Qualcomm Ath... | QCA9377 802.11ac Wire... | 4.8%   | 4.9.9    | E7395D0EE2 |
 | 168c:0042 | 17aa:0901 | Qualcomm Ath... | QCA9377 802.11ac Wire... | 5.6%   | 4.9.9    | C23D0EF968 |
 | 168c:0042 | 17aa:4035 | Qualcomm Ath... | QCA9377 802.11ac Wire... | 2.5%   | 4.8.0    | C3352134E9 |
 | 1814:3062 | 1814:3062 | Ralink          | RT3062 Wireless 802.1... | 16.7%  | 3.14.44  | 9D9E2DB550 |
+| 1814:3290 | 103c:18ec | Ralink          | RT3290 Wireless 802.1... | 0.4%   | 3.14.15  | 5C0BCB0583 |
 | 1814:5592 | 1043:851a | Ralink          | RT5592 PCIe Wireless ... | 100%   |          | 45CCD71213 |
+| 8086:08b1 | 8086:4070 | Intel           | Wireless 7260            | 1%     | 3.14.25  | 550460AAAC |
 | 8086:095a | 8086:5400 | Intel           | Wireless 7265            | 16.7%  | 4.1.25   | 0A99E4D896 |
 | 8086:24f3 | 8086:1010 | Intel           | Wireless 8260            | 4%     | 4.1.15   | 43DF678BD3 |
 | 8086:2526 | 8086:0014 | Intel           | Wireless-AC 9260         | 33.3%  | 4.16.13  | B078D35C2C |
 | 8086:3165 | 8086:4010 | Intel           | Wireless 3165            | 1.5%   | 4.1.15   | 5738D326F6 |
 | 8086:3166 | 8086:4210 | Intel           | Intel Dual Band Wirel... | 2.4%   | 4.1.15   | 18379EBD5C |
+| 8086:4222 | 103c:135c | Intel           | PRO/Wireless 3945ABG ... | 3.8%   | 3.14.25  | 9EDB73DD0E |
 
 ### Network (PCI)
 
-6 out of 478 (1.26%)
+7 out of 471 (1.49%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
 | 1006:3106 | 1086:1405 | Reply Group     | Reply Ethernet contro... | 100%   |          | F597A38FF5 |
 | 10ec:b822 | 1043:8746 | Realtek Semi... | RTL8822BE 802.11a/b/g... | 100%   |          | 27EB064D7D |
-| 10ec:d723 | 103c:8319 | Realtek Semi... | Realtek Network contr... | 78.9%  | 4.9.87   | A0EB144818 |
+| 10ec:d723 | 103c:8319 | Realtek Semi... | RTL8723DE Wireless Ne... | 93.8%  | 4.9.87   | A0EB144818 |
 | 12d0:2103 | 12d0:2103 | GDE Systems     | GDE Network controller   | 100%   |          | 8C5E6472B2 |
 | 168c:004a | 15aa:4035 | Qualcomm Ath... | Network controller       | 100%   |          | 04F6BB6978 |
 | 1810:3060 | 8001:0000 |                 | Network controller       | 100%   |          | CFD57C3B89 |
+| 8086:10d3 | 8086:a01f | Intel           | 82574L Gigabit Networ... | 5.9%   | 3.14.22  | 9B75A42A1E |
 
 ### Sound (PCI)
 
-23 out of 5215 (0.44%)
+36 out of 5200 (0.69%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -508,12 +646,21 @@ Probe  — latest probe ID with missed driver for the device.
 | 1002:4383 | 1043:836c | AMD/ATI         | SBx00 Azalia (Intel HDA) | 0.5%   | 3.14.44  | B2C845B843 |
 | 1002:9840 | 17aa:2219 | AMD/ATI         | Kabini HDMI/DP Audio     | 50%    | 4.9.60   | 94058A82CA |
 | 1002:aab0 | 1043:aab0 | AMD/ATI         | Cape Verde/Pitcairn H... | 0.5%   | 3.14.22  | 71ABA86389 |
+| 1002:aac0 | 1458:aac0 | AMD/ATI         | Tobago HDMI Audio [Ra... | 5.3%   | 3.14.44  | 62E0E97099 |
+| 1022:2093 | 1022:2093 | AMD             | CS5536 [Geode compani... | 100%   |          | 6D9551F87E |
 | 1022:780d | 1043:86c7 | AMD             | FCH Azalia Controller    | 50%    | 4.9.14   | 71ABA86389 |
 | 10de:006b | 1043:0c11 | Nvidia          | nForce Audio Processi... | 100%   |          | 75D94681B0 |
 | 10de:006b | 147b:1c00 | Nvidia          | nForce Audio Processi... | 100%   |          | CB892B4614 |
 | 10de:03f0 | 1458:a002 | Nvidia          | MCP61 High Definition... | 0.7%   | 3.14.15  | 9D9E2DB550 |
+| 10de:0774 | 1462:7578 | Nvidia          | MCP72XE/MCP72P/MCP78U... | 33.3%  | 4.9.20   | 8F804041A2 |
+| 10de:0be3 | 1043:8354 | Nvidia          | High Definition Audio... | 7.1%   | 3.14.44  | 67BFE1B221 |
+| 10de:0be3 | 1462:8094 | Nvidia          | High Definition Audio... | 2.4%   | 3.14.44  | 895D8612B4 |
+| 10de:0bea | 1462:2304 | Nvidia          | GF108 High Definition... | 10%    | 3.14.44  | ED9D8A148D |
 | 10de:0bee |           | Nvidia          | GF116 High Definition... | 1.5%   | 3.14.39  | 77909796EC |
-| 13f2:0111 |           | Ford Microel... |                          | 100%   |          | 95162A226D |
+| 10de:0e1b | 1569:0fc6 | Nvidia          | GK107 HDMI Audio Cont... | 1.4%   | 3.14.33  | 8F804041A2 |
+| 10de:10f0 | 1043:8597 | Nvidia          | GP104 High Definition... | 100%   |          | 32166A5865 |
+| 1102:0004 | 1102:1003 | Creative Labs   | EMU10k2/CA0100/CA0102... | 33.3%  | 4.1.15   | D74C162548 |
+| 1102:0004 | 1102:2002 | Creative Labs   | EMU10k2/CA0100/CA0102... | 3.2%   | 3.14.44  | 2B0A36F85F |
 | 13f2:0111 | ffff:ffff | Ford Microel... | Multimedia audio cont... | 100%   |          | 95162A226D |
 | 13f6:8788 | 1043:8463 | C-Media Elec... | CMI8788 [Oxygen HD Au... | 100%   |          | 9E13784BB3 |
 | 13f6:8788 | 1043:855e | C-Media Elec... | CMI8788 [Oxygen HD Au... | 100%   |          | EE53639037 |
@@ -521,9 +668,13 @@ Probe  — latest probe ID with missed driver for the device.
 | 8086:0f28 | 17aa:3907 | Intel           | Atom Processor Z36xxx... | 100%   |          | 6D960BD235 |
 | 8086:0f28 | 8086:0f28 | Intel           | Atom Processor Z36xxx... | 100%   |          | 185203390D |
 | 8086:1c20 | 1043:8445 | Intel           | 6 Series/C200 Series ... | 0.5%   | 3.10.34  | 1678EE56C3 |
+| 8086:1c20 | 1849:1892 | Intel           | 6 Series/C200 Series ... | 4.3%   | 3.10.0   | 895D8612B4 |
 | 8086:1e20 | 1458:a002 | Intel           | 7 Series/C210 Series ... | 1%     | 3.10.42  | 740BF21A40 |
 | 8086:22a8 | 8086:7270 | Intel           | Atom/Celeron/Pentium ... | 100%   |          | E6EE947879 |
+| 8086:266e | 1458:ae01 | Intel           | 82801FB/FBM/FR/FW/FRW... | 11.1%  | 3.14.44  | FD291EB728 |
+| 8086:27d8 | 1043:83d4 | Intel           | NM10/ICH7 Family High... | 2.3%   | 3.14.44  | 8807184E95 |
 | 8086:27d8 | 1462:104e | Intel           | NM10/ICH7 Family High... | 20%    | 4.1.15   | 5F15F028A8 |
+| 8086:293e | 103c:281e | Intel           | 82801I (ICH9 Family) ... | 7.7%   | 3.14.44  | 61D1ED752A |
 | 8086:8c20 | 8086:8c20 | Intel           | 8 Series/C220 Series ... | 100%   |          | 77909796EC |
 
 ### Storage (PCI)
