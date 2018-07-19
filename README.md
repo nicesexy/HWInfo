@@ -16,7 +16,7 @@ by the hw-probe tool (https://github.com/linuxhw/hw-probe):
 
     sudo hw-probe -all -upload
 
-Total reports: 29806.
+Total reports: 29808.
 
 Contents
 --------
@@ -262,13 +262,12 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Graphics card (PCI)
 
-190 out of 5663 (3.36%)
+178 out of 5663 (3.14%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
 | 1002:15dd | 1043:876b | AMD/ATI         | Raven Ridge [Radeon V... | 100%   |          | A04FA68080 |
 | 1002:4c4d | 1002:4c4d | AMD/ATI         | Rage Mobility AGP 2x ... | 100%   |          | 5C43AB36E8 |
-| 1002:5b70 | 0000:0001 | ATI Technolo... | RV370 [Radeon X300 SE]   | 100%   |          | 8E9A9E1E93 |
 | 1002:6600 | 103c:194d | AMD/ATI         | Mars [Radeon HD 8670A... | 7.1%   | 3.14.25  | 5145FE5675 |
 | 1002:6600 | 103c:195d | ATI Technolo... | VGA compatible contro... | 100%   |          | 1A786FF081 |
 | 1002:6600 | 144d:c708 | AMD/ATI         | Mars [Radeon HD 8670A... | 33.3%  | 4.1.15   | D8F94CA15D |
@@ -288,22 +287,16 @@ Probe  — latest probe ID with missed driver for the device.
 | 1002:6821 | 1028:05ee | AMD/ATI         | Venus XT [Radeon HD 8... | 22.2%  | 3.14.44  | 31B0BECCAB |
 | 1002:6823 | 1028:05eb | AMD/ATI         | Venus PRO [Radeon HD ... | 28.6%  | 3.14.44  | A06AAF3EA2 |
 | 1002:683d | 1462:2710 | AMD/ATI         | Cape Verde XT [Radeon... | 33.3%  | 4.1.15   | 5599435B69 |
-| 1002:683f | 174b:a001 | AMD/ATI         | Cape Verde PRO [Radeo... | 50%    | 4.9.76   | 45686E785E |
-| 1002:6840 | 1028:0598 | AMD/ATI         | Thames [Radeon HD 750... | 5.6%   | 3.14.25  | 988B8C4B4A |
+| 1002:6840 | 1028:0598 | AMD/ATI         | Thames [Radeon HD 750... | 5.3%   | 3.14.25  | 988B8C4B4A |
 | 1002:6840 | 103c:1840 | ATI Technolo... | Thames [Radeon HD 750... | 14.3%  | 3.14.44  | B0552C0AF2 |
 | 1002:6840 | 103c:1842 | ATI Technolo... | VGA compatible contro... | 10%    | 3.14.44  | 2266C4AA6C |
 | 1002:6840 | 144d:c0d8 | AMD/ATI         | Thames [Radeon HD 750... | 8.3%   | 3.14.22  | 935529F421 |
 | 1002:6841 | 103c:17f4 | AMD/ATI         | Thames [Radeon HD 755... | 22.2%  | 3.14.44  | C79BD3EFCD |
 | 1002:6841 | 104d:90ac | AMD/ATI         | Thames [Radeon HD 755... | 2.3%   | 3.10.19  | A41A94F4F5 |
 | 1002:68a1 | 1025:0475 | ATI Technolo... | Broadway PRO [Mobilit... | 100%   |          | 3B1F271BB2 |
-| 1002:68e0 | 144d:c553 | AMD/ATI         | Park [Mobility Radeon... | 25%    | 3.14.44  | EEB54D2D46 |
 | 1002:68e4 | 103c:1411 | AMD/ATI         | Robson CE [AMD Radeon... | 11.1%  | 3.10.34  | EEC30310B0 |
 | 1002:68e4 | 1043:1c92 | AMD/ATI         | Robson CE [Radeon HD ... | 4.5%   | 3.14.44  | 7FDEE4E7BB |
 | 1002:68e4 | 17aa:397a | AMD/ATI         | Robson CE [Radeon HD ... | 7.3%   | 3.10.34  | 3067EF258B |
-| 1002:6900 | 103c:2269 | AMD/ATI         | Topaz XT [Radeon R7 M... | 25%    | 4.9.20   | 912D4C6523 |
-| 1002:6900 | 103c:226b | AMD/ATI         | Topaz XT [Radeon R7 M... | 60%    | 4.9.20   | 1A71B0CAF6 |
-| 1002:6900 | 103c:22c8 | AMD/ATI         | Topaz XT [Radeon R7 M... | 66.7%  | 4.9.41   | 91B2B00C8A |
-| 1002:6900 | 103c:8229 | AMD/ATI         | Topaz XT [Radeon R7 M... | 66.7%  | 4.10.0   | 1E1F16D2E9 |
 | 1002:6938 | 1043:04f5 | AMD/ATI         | Tonga XT / Amethyst X... | 33.3%  | 4.5.5    | 0E1E35C6E2 |
 | 1002:6939 | 1682:9380 | AMD/ATI         | Tonga PRO [Radeon R9 ... | 100%   |          | A3F6229CAA |
 | 1002:6939 | 174b:e308 | AMD/ATI         | Tonga PRO [Radeon R9 ... | 33.3%  | 4.9.60   | 77EF398855 |
@@ -405,17 +398,14 @@ Probe  — latest probe ID with missed driver for the device.
 | 10de:1c82 | 19da:2454 | Nvidia          | GP107                    | 100%   |          | 1FE17AADBB |
 | 10de:1d01 | 1043:85f4 | Nvidia          | GP108 [GeForce GT 1030]  | 100%   |          | 1834F1A25A |
 | 10de:1d01 | 1462:8c98 | Nvidia          | GP108 [GeForce GT 1030]  | 100%   |          | 88411F1080 |
-| 8086:0046 | 103c:7008 | Intel           | Core Processor Integr... | 15.4%  | 3.10.34  | BD135661D2 |
 | 8086:0102 | 1043:844d | Intel           | 2nd Generation Core P... | 2%     | 3.14.44  | E2A6B707D5 |
 | 8086:0102 | 1458:d000 | Intel           | 2nd Generation Core P... | 1.4%   | 3.14.22  | C75142F476 |
-| 8086:0116 | 17aa:3975 | Intel           | 2nd Generation Core P... | 2.9%   | 3.12.21  | 2239D316E8 |
 | 8086:0152 | 1458:d000 | Intel           | Xeon E3-1200 v2/3rd G... | 7.4%   | 3.14.33  | 56D5984A14 |
 | 8086:0152 | 1849:0152 | Intel           | Xeon E3-1200 v2/3rd G... | 7.7%   | 3.14.44  | 7263661AC3 |
 | 8086:0162 | 1043:84ca | Intel           | Xeon E3-1200 v2/3rd G... | 5.9%   | 3.14.44  | 19B62D356E |
 | 8086:0162 | 1462:2111 | Intel           | Xeon E3-1200 v2/3rd G... | 28.6%  | 3.14.44  | 5940DCAB28 |
 | 8086:0162 | 1849:0162 | Intel           | Xeon E3-1200 v2/3rd G... | 25%    | 3.10.0   | 8505F4654F |
 | 8086:0f31 | 1025:0936 | Intel           | ValleyView Gen7          | 100%   |          | 1718CF1D36 |
-| 8086:0f31 | 17aa:3986 | Intel           | Atom Processor Z36xxx... | 5%     | 3.14.44  | B4E99F70A9 |
 | 8086:1616 | 1028:062b | Intel           | Broadwell-U Integrate... | 100%   |          | 0A99E4D896 |
 | 8086:1902 | 1043:8694 | Intel           | VGA compatible contro... | 21.4%  | 4.8.14   | A91734714E |
 | 8086:1902 | 1462:7996 | Intel           | HD Graphics 510          | 50%    | 4.9.20   | BFAA613B9E |
@@ -441,9 +431,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 8086:191b | 1043:1080 | Intel           | VGA compatible contro... | 100%   |          | 5B1076EA3C |
 | 8086:191b | 1043:1d6d | Intel           | VGA compatible contro... | 100%   |          | 9D6C0DD372 |
 | 8086:191b | 1462:1190 | Intel           | HD Graphics 530          | 16.7%  | 4.9.9    | 2B70AAB06F |
-| 8086:191b | 17aa:3802 | Intel           | Skylake Integrated Gr... | 16.7%  | 4.4.16   | 25576A8571 |
 | 8086:1921 | 17aa:39e8 | Intel           | HD Graphics 520          | 100%   |          | C3352134E9 |
-| 8086:22b0 | 1025:106e | Intel           | Atom/Celeron/Pentium ... | 100%   |          | 425D589D65 |
 | 8086:22b1 | 1025:1012 | Intel           | Atom/Celeron/Pentium ... | 13.3%  | 4.9.20   | 16D1C62342 |
 | 8086:22b1 | 1028:0725 | Intel           | Atom/Celeron/Pentium ... | 25%    | 4.9.20   | 92DCC778AC |
 | 8086:22b1 | 1043:10c0 | Intel           | Atom/Celeron/Pentium ... | 9.1%   | 4.9.9    | E6AFAB9B56 |
@@ -884,7 +872,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Camera (USB)
 
-23 out of 1287 (1.79%)
+23 out of 1288 (1.79%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
