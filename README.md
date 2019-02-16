@@ -317,7 +317,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Graphics card (PCI)
 
-218 out of 6692 (3.26%)
+210 out of 6690 (3.14%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -327,7 +327,6 @@ Probe  — latest probe ID with missed driver for the device.
 | 1002:15dd | 1043:876b | AMD/ATI         | Raven Ridge [Radeon V... | 42.9%  | 4.15.0   | 06097176A9 |
 | 1002:15dd | 1458:d000 | AMD/ATI         | Raven Ridge [Radeon V... | 20%    | 4.15.0   | 158FB83DCC |
 | 1002:15dd | 1462:7a36 | AMD/ATI         | Raven Ridge [Radeon V... | 40%    | 4.16.18  | 41871808C5 |
-| 1002:4752 | 1002:8008 | AMD/ATI         | Rage 3 [Rage XL PCI]     | 100%   |          | 7840DC7FF6 |
 | 1002:4752 | 103c:3208 | AMD/ATI         | Rage 3 [Rage XL PCI]     | 100%   |          | 2C877CF870 |
 | 1002:4c4d | 1002:4c4d | AMD/ATI         | Rage Mobility AGP 2x ... | 100%   |          | 5C43AB36E8 |
 | 1002:6600 | 103c:194d | AMD/ATI         | Mars [Radeon HD 8670A... | 6.7%   | 3.14.25  | 5145FE5675 |
@@ -337,7 +336,6 @@ Probe  — latest probe ID with missed driver for the device.
 | 1002:6601 | 144d:c0e8 | AMD/ATI         | Mars [Radeon HD 8730M]   | 64.3%  | 4.8.12   | 74BA47C62B |
 | 1002:6604 | 103c:8150 | AMD/ATI         | Opal XT [Radeon R7 M2... | 33.3%  | 4.18.12  | FD1C0C441E |
 | 1002:6610 | 1787:2012 | AMD/ATI         | Oland XT [Radeon HD 8... | 100%   |          | 50841878AE |
-| 1002:6660 | 1028:05db | AMD/ATI         | Sun XT [Radeon HD 867... | 100%   |          | 3FEDAA45BD |
 | 1002:6660 | 103c:2164 | AMD/ATI         | Sun XT [Radeon HD 867... | 100%   |          | 7376903DCA |
 | 1002:6740 | 103c:3388 | AMD/ATI         | Whistler [Radeon HD 6... | 13.8%  | 3.14.44  | 282B2E66CA |
 | 1002:6741 | 17aa:3976 | AMD/ATI         | Whistler [Radeon HD 6... | 6.2%   | 4.1.15   | 70A3F923C2 |
@@ -372,7 +370,6 @@ Probe  — latest probe ID with missed driver for the device.
 | 1002:699f | 1462:8a90 | AMD/ATI         | Lexa PRO [Radeon RX 5... | 100%   |          | 0B359B9A7F |
 | 1002:9610 | 1458:d000 | AMD/ATI         | RS780 [Radeon HD 3200]   | 28.6%  | 4.1.38   | 1606464343 |
 | 1002:9616 | 1043:8388 | AMD/ATI         | RS780L [Radeon 3000]     | 1.4%   | 3.14.44  | 8A29337DB7 |
-| 1002:9616 | 1849:9616 | AMD/ATI         | RS780L [Radeon 3000]     | 6.7%   | 4.1.13   | BD667233D4 |
 | 1002:9712 | 103c:1609 | AMD/ATI         | RS880M [Mobility Rade... | 40%    | 3.13.0   | 1DD894B330 |
 | 1002:9714 | 1849:9714 | AMD/ATI         | RS880 [Radeon HD 4290]   | 50%    | 4.1.25   | CAFF866F87 |
 | 1002:9830 | 1043:8623 | AMD/ATI         | Kabini [Radeon HD 840... | 2.1%   | 3.14.44  | 7A3C73F361 |
@@ -487,11 +484,6 @@ Probe  — latest probe ID with missed driver for the device.
 | 10de:1d01 | 1462:8c98 | Nvidia          | GP108 [GeForce GT 1030]  | 100%   |          | E244A01D83 |
 | 10de:1d01 | 19da:1476 | Nvidia          | GP108 [GeForce GT 1030]  | 100%   |          | 2B0D032DAD |
 | 10de:1e07 | 19da:1503 | Nvidia          | TU102 [GeForce RTX 20... | 100%   |          | C8FDC5E958 |
-| 8086:0102 | 1043:844d | Intel           | 2nd Generation Core P... | 1.7%   | 3.14.44  | E2A6B707D5 |
-| 8086:0102 | 1458:d000 | Intel           | 2nd Generation Core P... | 1.2%   | 3.14.22  | C75142F476 |
-| 8086:0152 | 1458:d000 | Intel           | Xeon E3-1200 v2/3rd G... | 6.2%   | 3.9.10   | 56D5984A14 |
-| 8086:0152 | 1849:0152 | Intel           | Xeon E3-1200 v2/3rd G... | 5.9%   | 3.14.44  | 7263661AC3 |
-| 8086:0162 | 1462:2111 | Intel           | Xeon E3-1200 v2/3rd G... | 28.6%  | 3.14.44  | 5940DCAB28 |
 | 8086:0166 | 103c:218f | Intel           | 3rd Gen Core processo... | 66.7%  | 4.1.25   | D96AD40896 |
 | 8086:0412 | 1462:7816 | Intel           | Xeon E3-1200 v3/4th G... | 25%    | 4.9.20   | 093472BA51 |
 | 8086:041a | 1462:7823 | Intel           | Xeon E3-1200 v3 Proce... | 100%   |          | 7755195EF6 |
