@@ -1349,14 +1349,14 @@ Probe  — latest probe ID with missed driver for the device.
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
-| 0411:0242 | BUFFALO         | 802.11ac WLAN Adapter    | 100%   |          | 1A6E39D574 |
+| 0411:0242 | BUFFALO         | RTL8811AU WI-U2-433DM... | 100%   |          | 1A6E39D574 |
 | 0457:0162 | Silicon Inte... | SiS162 usb Wireless L... | 100%   |          | D625F7E867 |
-| 0586:3425 | ZyXEL Commun... | NWD6505 802.11a/b/g/n... | 100%   |          | 57B1BCAC00 |
-| 0846:9011 | NetGear         | WNDA3100v2 802.11abgn... | 100%   |          | 885A9605A1 |
-| 0846:9020 | NetGear         | WNA3100(v1) Wireless-... | 100%   |          | FFCF433D14 |
-| 0846:9052 | NetGear         | A6100 AC600 DB Wirele... | 100%   |          | E56515D9FA |
-| 0b05:17d1 | ASUSTek Comp... | AC51 802.11a/b/g/n/ac... | 100%   |          | 3CBF6D38BA |
-| 0b05:17db | ASUSTek Comp... | USB-AC50 802.11a/b/g/... | 100%   |          | 93C92CF446 |
+| 0586:3425 | ZyXEL Commun... | MT7610U NWD6505 802.1... | 100%   |          | 57B1BCAC00 |
+| 0846:9011 | NetGear         | BCM4323 WNDA3100v2 80... | 100%   |          | 885A9605A1 |
+| 0846:9020 | NetGear         | BCM43231 WNA3100(v1) ... | 100%   |          | FFCF433D14 |
+| 0846:9052 | NetGear         | RTL8811AU A6100 AC600... | 100%   |          | E56515D9FA |
+| 0b05:17d1 | ASUSTek Comp... | MT7610U AC51 802.11a/... | 100%   |          | 3CBF6D38BA |
+| 0b05:17db | ASUSTek Comp... | MT7610U USB-AC50 802.... | 100%   |          | 93C92CF446 |
 | 0b05:1817 | ASUSTek Comp... | RTL8814AU USB-AC68 80... | 100%   |          | 9639F147B5 |
 | 0b05:184c | ASUSTek Comp... | RTL8812BU USB-AC53 Na... | 100%   |          | 8C427755B7 |
 | 0bda:0811 | Realtek Semi... | RTL8811AU 802.11ac WL... | 80%    | 4.15.0   | A3232D69C7 |
@@ -1367,13 +1367,13 @@ Probe  — latest probe ID with missed driver for the device.
 | 0bda:b711 | Realtek Semi... | RTL8188GU 802.11n WLA... | 100%   |          | 10AA216491 |
 | 0bda:b812 | Realtek Semi... | RTL8812BU USB3.0 802.... | 72.7%  | 4.18.0   | 3006D0B97E |
 | 0bda:c811 | Realtek Semi... | RTL8811CU 802.11ac NIC   | 100%   |          | 7C83F5B310 |
-| 0cde:0015 | Z-Com           | XG-705A 802.11g Wirel... | 100%   |          | B4E374835E |
+| 0cde:0015 | Z-Com           | ISL3887 XG-705A 802.1... | 100%   |          | B4E374835E |
 | 0cf3:9271 | Qualcomm Ath... | AR9271 802.11n           | 0.4%   | 3.14.25  | E6A7D05EF4 |
 | 0e8d:7610 | MediaTek        | MT7610U WiFi             | 100%   |          | 9D066D0996 |
-| 13b1:003a | Linksys         | AE2500 802.11abgn Wir... | 100%   |          | 67D4C580FE |
-| 13b1:003e | Linksys         | AE6000 802.11a/b/g/n/... | 100%   |          | 6F68EDE0BD |
-| 13b1:003f | Linksys         | WUSB6300 802.11a/b/g/... | 83.3%  | 4.1.19   | 6649FF8A00 |
-| 13b1:0042 | Linksys         | WUSB6100M 802.11a/b/g... | 28.6%  | 4.15.0   | 5155142A94 |
+| 13b1:003a | Linksys         | BCM43236 AE2500 802.1... | 100%   |          | 67D4C580FE |
+| 13b1:003e | Linksys         | MT7610U AE6000 802.11... | 100%   |          | 6F68EDE0BD |
+| 13b1:003f | Linksys         | RTL8812AU WUSB6300 80... | 83.3%  | 4.1.19   | 6649FF8A00 |
+| 13b1:0042 | Linksys         | QCA9377 WUSB6100M 802... | 28.6%  | 4.15.0   | 5155142A94 |
 | 148f:7601 | Ralink Techn... | MT7601U Wireless Adapter | 22%    | 3.14.33  | D38CC84B36 |
 | 148f:760b | Ralink Techn... | MT7601U Wireless Adapter | 37.5%  | 3.14.33  | 335F9F48EE |
 | 148f:761a | Ralink Techn... | MT7610U ("Archer T2U"... | 100%   |          | E9BEFCE453 |
@@ -1399,7 +1399,7 @@ Probe  — latest probe ID with missed driver for the device.
 |-----------|-----------------|--------------------------|--------|----------|------------|
 | 0bda:b720 | Realtek Semi... | RTL8723BU 802.11n WLA... | 14.3%  | 4.4.1    | 6135515DEB |
 | 2001:330f | D-Link          | RTL8188ETV DWA-125 11... | 3.7%   | 3.14.44  | 01D21EA756 |
-| 7392:a812 | Edimax Techn... | Edimax AC600 USB         | 28.6%  | 3.14.25  | FA09AEC26E |
+| 7392:a812 | Edimax Techn... | RTL8811AU AC600 USB      | 28.6%  | 3.14.25  | FA09AEC26E |
 
 ### Tv card (USB)
 
