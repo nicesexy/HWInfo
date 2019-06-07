@@ -356,85 +356,88 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Graphics card (PCI)
 
-264 out of 7725 (3.42%)
+266 out of 7718 (3.45%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
-| 1002:130f | 1849:130f | AMD/ATI         | Kaveri [Radeon R7 Gra... | 12.5%  | 3.14.44  | 50841878AE |
-| 1002:15dd | 1002:15dd | AMD/ATI         | Raven Ridge [Radeon V... | 3.6%   | 4.15.0   | 6BD3D061A7 |
-| 1002:15dd | 103c:8434 | AMD/ATI         | Raven Ridge [Radeon V... | 100%   |          | E30D68CA01 |
-| 1002:15dd | 1043:876b | AMD/ATI         | Raven Ridge [Radeon V... | 12%    | 4.15.0   | 06097176A9 |
-| 1002:15dd | 1458:d000 | AMD/ATI         | Raven Ridge [Radeon V... | 7.7%   | 3.10.0   | 158FB83DCC |
-| 1002:15dd | 1462:7a36 | AMD/ATI         | Raven Ridge [Radeon V... | 33.3%  | 4.16.18  | 41871808C5 |
-| 1002:15dd | 17aa:36f5 | AMD/ATI         | Raven Ridge [Radeon V... | 100%   |          | 7E41940C9C |
-| 1002:4752 | 103c:3208 | AMD/ATI         | Rage 3 [Rage XL PCI]     | 100%   |          | 2C877CF870 |
-| 1002:4c4d | 1002:4c4d | AMD/ATI         | Rage Mobility AGP 2x ... | 100%   |          | 5C43AB36E8 |
-| 1002:6600 | 103c:194d | AMD/ATI         | Mars [Radeon HD 8670A... | 11.1%  | 3.14.25  | D4807B7763 |
-| 1002:6600 | 103c:195d | AMD/ATI         | Mars [Radeon HD 8670A... | 100%   |          | 1A786FF081 |
-| 1002:6600 | 144d:c706 | AMD/ATI         | Mars [Radeon HD 8670A... | 11.1%  | 3.14.44  | 21C3A8765C |
-| 1002:6600 | 144d:c708 | AMD/ATI         | Mars [Radeon HD 8670A... | 33.3%  | 4.1.15   | D8F94CA15D |
-| 1002:6601 | 144d:c0e8 | AMD/ATI         | Mars [Radeon HD 8730M]   | 64.3%  | 4.8.12   | 74BA47C62B |
-| 1002:6604 | 103c:8150 | AMD/ATI         | Opal XT [Radeon R7 M2... | 33.3%  | 4.18.12  | FD1C0C441E |
-| 1002:6610 | 1787:2012 | AMD/ATI         | Oland XT [Radeon HD 8... | 100%   |          | 50841878AE |
-| 1002:665c | 1043:0456 | AMD/ATI         | Bonaire XT [Radeon HD... | 40%    | 4.15.0   | 8EACB4F7F2 |
-| 1002:6660 | 103c:1970 | AMD/ATI         | Sun XT [Radeon HD 867... | 30.8%  | 3.14.44  | 80D612B4C7 |
-| 1002:6660 | 103c:2164 | AMD/ATI         | Sun XT [Radeon HD 867... | 100%   |          | 7376903DCA |
-| 1002:66af | 1002:081e | AMD/ATI         | Vega 20 [Radeon VII]     | 66.7%  | 5.0.3    | 1A1E68B4E4 |
-| 1002:6740 | 103c:3388 | AMD/ATI         | Whistler [Radeon HD 6... | 15.2%  | 3.14.44  | 45D2217223 |
-| 1002:6741 | 17aa:3976 | AMD/ATI         | Whistler [Radeon HD 6... | 5.3%   | 4.1.15   | 70A3F923C2 |
-| 1002:6760 | 103c:1672 | AMD/ATI         | Seymour [Radeon HD 64... | 6.7%   | 3.14.44  | 4F9C19A9C0 |
-| 1002:6760 | 106b:00e1 | AMD/ATI         | Seymour [Radeon HD 64... | 100%   |          | BEC467794E |
-| 1002:6761 | 1297:4012 | AMD/ATI         | Seymour LP [Radeon HD... | 100%   |          | 6AA573349B |
-| 1002:6770 | 17aa:3623 | AMD/ATI         | Caicos [Radeon HD 645... | 20%    | 4.1.15   | 02882EF37B |
-| 1002:6778 | 1028:2120 | AMD/ATI         | Caicos XT [Radeon HD ... | 7.7%   | 3.10.0   | 8A8C155D34 |
-| 1002:6779 | 1043:03da | AMD/ATI         | Caicos [Radeon HD 645... | 0.9%   | 3.10.34  | 9734ABB0D4 |
-| 1002:6779 | 1043:047b | AMD/ATI         | Caicos [Radeon HD 645... | 66.7%  | 4.15.0   | 423A12D8A5 |
-| 1002:6779 | 1787:3000 | AMD/ATI         | Caicos [Radeon HD 645... | 50%    | 4.9.9    | A03EA38833 |
-| 1002:67df | 1002:0b37 | AMD/ATI         | Ellesmere [Radeon RX ... | 25%    | 4.20.5   | 5CC9EEEBFE |
-| 1002:67ef | 174b:e348 | AMD/ATI         | Baffin [Radeon RX 460... | 11.1%  | 4.9.20   | 72DD80DA38 |
-| 1002:6819 | 1043:045b | AMD/ATI         | Pitcairn PRO [Radeon ... | 28.6%  | 3.14.33  | A12C16610A |
-| 1002:6819 | 174b:a001 | AMD/ATI         | Pitcairn PRO [Radeon ... | 33.3%  | 4.9.0    | 97B72D7509 |
-| 1002:6821 | 1028:05ee | AMD/ATI         | Venus XT [Radeon HD 8... | 16.7%  | 3.14.44  | 31B0BECCAB |
-| 1002:6823 | 1028:05eb | AMD/ATI         | Venus PRO [Radeon HD ... | 28.6%  | 3.14.44  | A06AAF3EA2 |
-| 1002:682f | 1028:0572 | AMD/ATI         | Chelsea LP [Radeon HD... | 6.7%   | 3.14.44  | 609E372F78 |
-| 1002:683d | 1462:2710 | AMD/ATI         | Cape Verde XT [Radeon... | 33.3%  | 4.1.15   | 5599435B69 |
-| 1002:6840 | 1028:0598 | AMD/ATI         | Thames [Radeon HD 750... | 4.5%   | 3.14.25  | 988B8C4B4A |
-| 1002:6840 | 103c:1840 | AMD/ATI         | Thames [Radeon HD 750... | 14.3%  | 3.14.44  | B0552C0AF2 |
-| 1002:6840 | 103c:1842 | AMD/ATI         | Thames [Radeon HD 750... | 7.1%   | 3.14.44  | 2266C4AA6C |
-| 1002:6840 | 144d:c0d8 | AMD/ATI         | Thames [Radeon HD 750... | 6.6%   | 3.14.22  | 935529F421 |
-| 1002:6841 | 1028:057f | AMD/ATI         | Thames [Radeon HD 755... | 25%    | 4.15.0   | C586AFD245 |
-| 1002:6841 | 103c:17f4 | AMD/ATI         | Thames [Radeon HD 755... | 21.1%  | 3.14.44  | C79BD3EFCD |
-| 1002:6841 | 104d:90ac | AMD/ATI         | Thames [Radeon HD 755... | 2.2%   | 3.10.19  | A41A94F4F5 |
-| 1002:68a1 | 1025:0475 | AMD/ATI         | Broadway PRO [Mobilit... | 100%   |          | 3B1F271BB2 |
-| 1002:68e0 | 104d:9071 | AMD/ATI         | Park [Mobility Radeon... | 5.6%   | 4.1.34   | E7257D1630 |
-| 1002:68e4 | 103c:1411 | AMD/ATI         | Robson CE [Radeon HD ... | 11.1%  | 3.10.34  | EEC30310B0 |
-| 1002:68e4 | 1043:1c92 | AMD/ATI         | Robson CE [Radeon HD ... | 3.1%   | 3.14.44  | 7FDEE4E7BB |
-| 1002:68e4 | 17aa:397a | AMD/ATI         | Robson CE [Radeon HD ... | 7.5%   | 3.10.34  | AF0EC73528 |
-| 1002:68f9 | 1028:2126 | AMD/ATI         | Cedar [Radeon HD 5000... | 33.3%  | 4.1.34   | D5A5261203 |
-| 1002:6901 | 103c:224a | AMD/ATI         | Topaz PRO [Radeon R5 ... | 25%    | 4.9.155  | EDA0076C39 |
-| 1002:6938 | 1043:04f5 | AMD/ATI         | Tonga XT / Amethyst X... | 33.3%  | 4.5.5    | 0E1E35C6E2 |
-| 1002:6939 | 1682:9380 | AMD/ATI         | Tonga PRO [Radeon R9 ... | 100%   |          | A3F6229CAA |
-| 1002:6939 | 174b:e308 | AMD/ATI         | Tonga PRO [Radeon R9 ... | 14.3%  | 4.9.60   | 77EF398855 |
-| 1002:699f | 1043:0511 | AMD/ATI         | Lexa PRO [Radeon RX 5... | 4.3%   | 4.15.18  | A994473A14 |
-| 1002:699f | 1458:22f3 | AMD/ATI         | Lexa PRO [Radeon RX 5... | 50%    | 4.15.0   | 03EEED62F1 |
-| 1002:699f | 1462:8a90 | AMD/ATI         | Lexa PRO [Radeon RX 5... | 50%    | 3.10.0   | 4769912443 |
-| 1002:94c3 | 1028:0402 | AMD/ATI         | RV610 [Radeon HD 2400... | 50%    | 4.15.0   | BBA0FE2672 |
-| 1002:954f | 1462:1618 | AMD/ATI         | RV710 [Radeon HD 4350... | 50%    | 3.14.53  | 51837DE98F |
-| 1002:9553 | 1043:1c42 | AMD/ATI         | RV710/M92 [Mobility R... | 5%     | 4.1.15   | 6D866DDF45 |
-| 1002:9610 | 1458:d000 | AMD/ATI         | RS780 [Radeon HD 3200]   | 33.3%  | 4.1.38   | BC16FF7B2F |
-| 1002:9616 | 1043:8388 | AMD/ATI         | RS780L [Radeon 3000]     | 1.2%   | 3.14.44  | 8A29337DB7 |
-| 1002:9712 | 103c:1609 | AMD/ATI         | RS880M [Mobility Rade... | 28.6%  | 3.13.0   | 1DD894B330 |
-| 1002:9714 | 1849:9714 | AMD/ATI         | RS880 [Radeon HD 4290]   | 50%    | 4.1.25   | CAFF866F87 |
-| 1002:9807 | 1002:9807 | AMD/ATI         | Wrestler [Radeon HD 6... | 100%   |          | 3027B15C31 |
-| 1002:9830 | 1043:8623 | AMD/ATI         | Kabini [Radeon HD 840... | 1.9%   | 3.14.44  | 7A3C73F361 |
-| 1002:9851 | 1025:088c | AMD/ATI         | Mullins [Radeon R4/R5... | 100%   |          | D0E8E1E8D9 |
-| 1002:9851 | 103c:2269 | AMD/ATI         | Mullins [Radeon R4/R5... | 10%    | 4.9.20   | 912D4C6523 |
-| 1002:9851 | 103c:226b | AMD/ATI         | Mullins [Radeon R4/R5... | 20%    | 4.1.34   | 8016AF5575 |
-| 1002:9851 | 103c:22cd | AMD/ATI         | Mullins [Radeon R4/R5... | 33.3%  | 4.15.0   | 46004F2E8E |
-| 1002:9851 | 17aa:3801 | AMD/ATI         | Mullins [Radeon R4/R5... | 14.3%  | 4.1.15   | A30A019453 |
-| 1002:9874 | 103c:80b6 | AMD/ATI         | Wani [Radeon R5/R6/R7... | 100%   |          | C7EEDACBF5 |
-| 1002:9874 | 17aa:5113 | AMD/ATI         | Wani [Radeon R5/R6/R7... | 33.3%  | 4.15.0   | 32F7318757 |
-| 1002:98e4 | 17aa:39f9 | AMD/ATI         | Stoney [Radeon R2/R3/... | 14.3%  | 4.9.60   | C23D0EF968 |
+| 1002:130f | 1849:130f | AMD             | Kaveri [Radeon R7 Gra... | 12.5%  | 3.14.44  | 50841878AE |
+| 1002:15dd | 1002:15dd | AMD             | Raven Ridge [Radeon V... | 3.6%   | 4.15.0   | 6BD3D061A7 |
+| 1002:15dd | 103c:8434 | AMD             | Raven Ridge [Radeon V... | 100%   |          | E30D68CA01 |
+| 1002:15dd | 1043:876b | AMD             | Raven Ridge [Radeon V... | 12%    | 4.15.0   | 06097176A9 |
+| 1002:15dd | 1458:d000 | AMD             | Raven Ridge [Radeon V... | 7.7%   | 3.10.0   | 158FB83DCC |
+| 1002:15dd | 1462:7a36 | AMD             | Raven Ridge [Radeon V... | 33.3%  | 4.16.18  | 41871808C5 |
+| 1002:15dd | 17aa:36f5 | AMD             | Raven Ridge [Radeon V... | 100%   |          | 7E41940C9C |
+| 1002:4752 | 103c:3208 | AMD             | Rage 3 [Rage XL PCI]     | 100%   |          | 2C877CF870 |
+| 1002:4c4d | 1002:4c4d | AMD             | Rage Mobility AGP 2x ... | 100%   |          | 5C43AB36E8 |
+| 1002:6600 | 103c:194d | AMD             | Mars [Radeon HD 8670A... | 11.1%  | 3.14.25  | D4807B7763 |
+| 1002:6600 | 103c:195d | AMD             | Mars [Radeon HD 8670A... | 100%   |          | 1A786FF081 |
+| 1002:6600 | 144d:c706 | AMD             | Mars [Radeon HD 8670A... | 11.1%  | 3.14.44  | 21C3A8765C |
+| 1002:6600 | 144d:c708 | AMD             | Mars [Radeon HD 8670A... | 33.3%  | 4.1.15   | D8F94CA15D |
+| 1002:6601 | 144d:c0e8 | AMD             | Mars [Radeon HD 8730M]   | 64.3%  | 4.8.12   | 74BA47C62B |
+| 1002:6604 | 103c:8150 | AMD             | Opal XT [Radeon R7 M2... | 33.3%  | 4.18.12  | FD1C0C441E |
+| 1002:6610 | 1787:2012 | AMD             | Oland XT [Radeon HD 8... | 100%   |          | 50841878AE |
+| 1002:665c | 1043:0456 | AMD             | Bonaire XT [Radeon HD... | 40%    | 4.15.0   | 8EACB4F7F2 |
+| 1002:6660 | 1028:05db | AMD             | Sun XT [Radeon HD 867... | 100%   |          | 3FEDAA45BD |
+| 1002:6660 | 103c:1970 | AMD             | Sun XT [Radeon HD 867... | 30.8%  | 3.14.44  | 80D612B4C7 |
+| 1002:6660 | 103c:2164 | AMD             | Sun XT [Radeon HD 867... | 100%   |          | 7376903DCA |
+| 1002:6665 | 1025:1192 | AMD             | Jet PRO [Radeon R5 M2... | 11.1%  | 4.15.0   | FC3C439818 |
+| 1002:66af | 1002:081e | AMD             | Vega 20 [Radeon VII]     | 66.7%  | 5.0.3    | 1A1E68B4E4 |
+| 1002:6740 | 103c:3388 | AMD             | Whistler [Radeon HD 6... | 15.2%  | 3.14.44  | 45D2217223 |
+| 1002:6741 | 17aa:3976 | AMD             | Whistler [Radeon HD 6... | 5.3%   | 4.1.15   | 70A3F923C2 |
+| 1002:6760 | 103c:1672 | AMD             | Seymour [Radeon HD 64... | 6.7%   | 3.14.44  | 4F9C19A9C0 |
+| 1002:6760 | 106b:00e1 | AMD             | Seymour [Radeon HD 64... | 100%   |          | BEC467794E |
+| 1002:6761 | 1297:4012 | AMD             | Seymour LP [Radeon HD... | 100%   |          | 6AA573349B |
+| 1002:6770 | 17aa:3623 | AMD             | Caicos [Radeon HD 645... | 20%    | 4.1.15   | 02882EF37B |
+| 1002:6778 | 1028:2120 | AMD             | Caicos XT [Radeon HD ... | 7.7%   | 3.10.0   | 8A8C155D34 |
+| 1002:6779 | 1043:03da | AMD             | Caicos [Radeon HD 645... | 0.9%   | 3.10.34  | 9734ABB0D4 |
+| 1002:6779 | 1043:047b | AMD             | Caicos [Radeon HD 645... | 66.7%  | 4.15.0   | 423A12D8A5 |
+| 1002:6779 | 1787:3000 | AMD             | Caicos [Radeon HD 645... | 50%    | 4.9.9    | A03EA38833 |
+| 1002:67df | 1002:0b37 | AMD             | Ellesmere [Radeon RX ... | 25%    | 4.20.5   | 5CC9EEEBFE |
+| 1002:67ef | 174b:e348 | AMD             | Baffin [Radeon RX 460... | 11.1%  | 4.9.20   | 72DD80DA38 |
+| 1002:6819 | 1043:045b | AMD             | Pitcairn PRO [Radeon ... | 28.6%  | 3.14.33  | A12C16610A |
+| 1002:6819 | 174b:a001 | AMD             | Pitcairn PRO [Radeon ... | 33.3%  | 4.9.0    | 97B72D7509 |
+| 1002:6821 | 1028:05ee | AMD             | Venus XT [Radeon HD 8... | 16.7%  | 3.14.44  | 31B0BECCAB |
+| 1002:6823 | 1028:05eb | AMD             | Venus PRO [Radeon HD ... | 28.6%  | 3.14.44  | A06AAF3EA2 |
+| 1002:6823 | 1179:f935 | AMD             | Venus PRO [Radeon HD ... | 66.7%  | 4.15.0   | 35DC9BFB0B |
+| 1002:682f | 1028:0572 | AMD             | Chelsea LP [Radeon HD... | 6.7%   | 3.14.44  | 609E372F78 |
+| 1002:683d | 1462:2710 | AMD             | Cape Verde XT [Radeon... | 33.3%  | 4.1.15   | 5599435B69 |
+| 1002:6840 | 1028:0598 | AMD             | Thames [Radeon HD 750... | 4.5%   | 3.14.25  | 988B8C4B4A |
+| 1002:6840 | 103c:1840 | AMD             | Thames [Radeon HD 750... | 14.3%  | 3.14.44  | B0552C0AF2 |
+| 1002:6840 | 103c:1842 | AMD             | Thames [Radeon HD 750... | 7.1%   | 3.14.44  | 2266C4AA6C |
+| 1002:6840 | 144d:c0d8 | AMD             | Thames [Radeon HD 750... | 6.6%   | 3.14.22  | 935529F421 |
+| 1002:6841 | 1028:057f | AMD             | Thames [Radeon HD 755... | 25%    | 4.15.0   | C586AFD245 |
+| 1002:6841 | 103c:17f4 | AMD             | Thames [Radeon HD 755... | 21.1%  | 3.14.44  | C79BD3EFCD |
+| 1002:6841 | 104d:90ac | AMD             | Thames [Radeon HD 755... | 2.2%   | 3.10.19  | A41A94F4F5 |
+| 1002:68a1 | 1025:0475 | AMD             | Broadway PRO [Mobilit... | 100%   |          | 3B1F271BB2 |
+| 1002:68e0 | 104d:9071 | AMD             | Park [Mobility Radeon... | 5.6%   | 4.1.34   | E7257D1630 |
+| 1002:68e4 | 103c:1411 | AMD             | Robson CE [Radeon HD ... | 11.1%  | 3.10.34  | EEC30310B0 |
+| 1002:68e4 | 1043:1c92 | AMD             | Robson CE [Radeon HD ... | 3.1%   | 3.14.44  | 7FDEE4E7BB |
+| 1002:68e4 | 17aa:397a | AMD             | Robson CE [Radeon HD ... | 7.5%   | 3.10.34  | AF0EC73528 |
+| 1002:68f9 | 1028:2126 | AMD             | Cedar [Radeon HD 5000... | 33.3%  | 4.1.34   | D5A5261203 |
+| 1002:6901 | 103c:224a | AMD             | Topaz PRO [Radeon R5 ... | 25%    | 4.9.155  | EDA0076C39 |
+| 1002:6938 | 1043:04f5 | AMD             | Tonga XT / Amethyst X... | 33.3%  | 4.5.5    | 0E1E35C6E2 |
+| 1002:6939 | 1682:9380 | AMD             | Tonga PRO [Radeon R9 ... | 100%   |          | A3F6229CAA |
+| 1002:6939 | 174b:e308 | AMD             | Tonga PRO [Radeon R9 ... | 14.3%  | 4.9.60   | 77EF398855 |
+| 1002:699f | 1043:0511 | AMD             | Lexa PRO [Radeon 540/... | 4.3%   | 4.15.18  | A994473A14 |
+| 1002:699f | 1458:22f3 | AMD             | Lexa PRO [Radeon 540/... | 50%    | 4.15.0   | 03EEED62F1 |
+| 1002:699f | 1462:8a90 | AMD             | Lexa PRO [Radeon 540/... | 50%    | 3.10.0   | 4769912443 |
+| 1002:94c3 | 1028:0402 | AMD             | RV610 [Radeon HD 2400... | 50%    | 4.15.0   | BBA0FE2672 |
+| 1002:954f | 1462:1618 | AMD             | RV710 [Radeon HD 4350... | 50%    | 3.14.53  | 51837DE98F |
+| 1002:9553 | 1043:1c42 | AMD             | RV710/M92 [Mobility R... | 5%     | 4.1.15   | 6D866DDF45 |
+| 1002:9610 | 1458:d000 | AMD             | RS780 [Radeon HD 3200]   | 33.3%  | 4.1.38   | BC16FF7B2F |
+| 1002:9616 | 1043:8388 | AMD             | RS780L [Radeon 3000]     | 1.2%   | 3.14.44  | 8A29337DB7 |
+| 1002:9712 | 103c:1609 | AMD             | RS880M [Mobility Rade... | 28.6%  | 3.13.0   | 1DD894B330 |
+| 1002:9714 | 1849:9714 | AMD             | RS880 [Radeon HD 4290]   | 50%    | 4.1.25   | CAFF866F87 |
+| 1002:9807 | 1002:9807 | AMD             | Wrestler [Radeon HD 6... | 100%   |          | 3027B15C31 |
+| 1002:9830 | 1043:8623 | AMD             | Kabini [Radeon HD 840... | 1.9%   | 3.14.44  | 7A3C73F361 |
+| 1002:9851 | 1025:088c | AMD             | Mullins [Radeon R4/R5... | 100%   |          | D0E8E1E8D9 |
+| 1002:9851 | 103c:2269 | AMD             | Mullins [Radeon R4/R5... | 10%    | 4.9.20   | 912D4C6523 |
+| 1002:9851 | 103c:226b | AMD             | Mullins [Radeon R4/R5... | 20%    | 4.1.34   | 8016AF5575 |
+| 1002:9851 | 103c:22cd | AMD             | Mullins [Radeon R4/R5... | 33.3%  | 4.15.0   | 46004F2E8E |
+| 1002:9851 | 17aa:3801 | AMD             | Mullins [Radeon R4/R5... | 14.3%  | 4.1.15   | A30A019453 |
+| 1002:9874 | 103c:80b6 | AMD             | Wani [Radeon R5/R6/R7... | 100%   |          | C7EEDACBF5 |
+| 1002:9874 | 17aa:5113 | AMD             | Wani [Radeon R5/R6/R7... | 33.3%  | 4.15.0   | 32F7318757 |
+| 1002:98e4 | 17aa:39f9 | AMD             | Stoney [Radeon R2/R3/... | 14.3%  | 4.9.60   | C23D0EF968 |
 | 10de:0140 | 1458:3126 | Nvidia          | NV43 [GeForce 6600 GT]   | 100%   |          | 9F8066CA65 |
 | 10de:0141 | 1043:81ee | Nvidia          | NV43 [GeForce 6600]      | 50%    | 4.1.38   | 71BC5B9631 |
 | 10de:0141 | 1458:3126 | Nvidia          | NV43 [GeForce 6600]      | 50%    | 4.9.60   | 7E447609BE |
@@ -566,7 +569,6 @@ Probe  — latest probe ID with missed driver for the device.
 | 10de:1e82 | 10b0:1e87 | Nvidia          | TU104 [GeForce RTX 2080] | 100%   |          | 73CF7CEE79 |
 | 10de:1f07 | 1043:8670 | Nvidia          | TU106 [GeForce RTX 20... | 100%   |          | AF6DA5211E |
 | 10de:2182 | 1462:3750 | Nvidia          | TU116 [GeForce GTX 16... | 100%   |          | FB532E634D |
-| 8086:0162 | 1849:0162 | Intel           | Xeon E3-1200 v2/3rd G... | 4%     | 3.10.0   | 8505F4654F |
 | 8086:0166 | 1025:0647 | Intel           | 3rd Gen Core processo... | 0.8%   | 3.10.34  | 86D2D3B0E1 |
 | 8086:0166 | 103c:218f | Intel           | 3rd Gen Core processo... | 66.7%  | 4.1.25   | D96AD40896 |
 | 8086:0412 | 1462:7816 | Intel           | Xeon E3-1200 v3/4th G... | 25%    | 4.9.20   | 093472BA51 |
@@ -577,7 +579,6 @@ Probe  — latest probe ID with missed driver for the device.
 | 8086:1902 | 1043:8694 | Intel           | HD Graphics 510          | 13.6%  | 4.8.14   | A91734714E |
 | 8086:1902 | 1462:7996 | Intel           | HD Graphics 510          | 25%    | 4.9.20   | BFAA613B9E |
 | 8086:1902 | 8086:2212 | Intel           | HD Graphics 510          | 100%   |          | FF56929B10 |
-| 8086:1912 | 1043:8694 | Intel           | HD Graphics 530          | 11%    | 4.4.0    | 575CE93124 |
 | 8086:1912 | 1458:d000 | Intel           | HD Graphics 530          | 36.4%  | 4.9.41   | 53E6A4F263 |
 | 8086:1912 | 1849:1912 | Intel           | HD Graphics 530          | 6.7%   | 4.3.3    | 5EF461260F |
 | 8086:1916 | 1025:1094 | Intel           | Skylake GT2 [HD Graph... | 20%    | 4.9.9    | E7D6077756 |
@@ -616,6 +617,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 8086:3e9b | 1025:1264 | Intel           | UHD Graphics 630 (Mob... | 22.2%  | 4.15.0   | C4FA903BED |
 | 8086:3e9b | 17aa:2267 | Intel           | UHD Graphics 630 (Mob... | 66.7%  | 4.19.12  | 1E7ADBE67A |
 | 8086:3ea0 | 1025:128d | Intel           | UHD Graphics 620 (Whi... | 100%   |          | 6C5781B14B |
+| 8086:5912 | 1043:8694 | Intel           | HD Graphics 630          | 2.2%   | 4.4.49   | B0DE2CBA6A |
 | 8086:5912 | 1458:d000 | Intel           | HD Graphics 630          | 7.1%   | 3.10.0   | 6126E55D1A |
 | 8086:5916 | 1028:0782 | Intel           | HD Graphics 620          | 100%   |          | 49389100FC |
 | 8086:5916 | 17aa:2249 | Intel           | HD Graphics 620          | 50%    | 4.18.0   | BFCD766C51 |
@@ -663,20 +665,20 @@ Probe  — latest probe ID with missed driver for the device.
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
-| 1002:4d51 | 1002:b041 | AMD/ATI         | Multimedia controller    | 100%   |          | 2CF316774E |
-| 1002:ac12 | 1002:b539 | AMD/ATI         | Theater HD T507 (DVB-... | 100%   |          | DD5E0979B0 |
-| 1002:ac12 | 12ab:0003 | AMD/ATI         | Theater HD T507 (DVB-... | 100%   |          | EA55AE13AC |
-| 1002:ad18 | 1682:ad18 | AMD/ATI         | Multimedia controller    | 100%   |          | 3108FE53D3 |
-| 1022:15e2 | 1022:15e2 | Advanced Mic... | Raven/Raven2/FireFlig... | 100%   |          | 52ED0BAFBD |
-| 1022:15e2 | 1025:1233 | Advanced Mic... | Raven/Raven2/FireFlig... | 100%   |          | 2D72496D20 |
-| 1022:15e2 | 103c:8433 | Advanced Mic... | Raven/Raven2/FireFlig... | 100%   |          | 2BCAD0A319 |
-| 1022:15e2 | 103c:8434 | Advanced Mic... | Raven/Raven2/FireFlig... | 100%   |          | E30D68CA01 |
-| 1022:15e2 | 103c:8496 | Advanced Mic... | Raven/Raven2/FireFlig... | 100%   |          | 10702AB56C |
-| 1022:15e2 | 103c:84ae | Advanced Mic... | Raven/Raven2/FireFlig... | 95.5%  | 5.0.0    | 2046C4286D |
-| 1022:15e2 | 103c:84d2 | Advanced Mic... | Raven/Raven2/FireFlig... | 100%   |          | 082F8083C9 |
-| 1022:15e2 | 17aa:36f5 | Advanced Mic... | Raven/Raven2/FireFlig... | 100%   |          | 7E41940C9C |
-| 1022:15e2 | 17aa:380b | Advanced Mic... | Raven/Raven2/FireFlig... | 100%   |          | FC22553A70 |
-| 1022:15e2 | 19e5:3e06 | Advanced Mic... | Raven/Raven2/FireFlig... | 100%   |          | 2CDCEA8607 |
+| 1002:4d51 | 1002:b041 | AMD             | Multimedia controller    | 100%   |          | 2CF316774E |
+| 1002:ac12 | 1002:b539 | AMD             | Theater HD T507 (DVB-... | 100%   |          | DD5E0979B0 |
+| 1002:ac12 | 12ab:0003 | AMD             | Theater HD T507 (DVB-... | 100%   |          | EA55AE13AC |
+| 1002:ad18 | 1682:ad18 | AMD             | Multimedia controller    | 100%   |          | 3108FE53D3 |
+| 1022:15e2 | 1022:15e2 | AMD             | Raven/Raven2/FireFlig... | 100%   |          | 52ED0BAFBD |
+| 1022:15e2 | 1025:1233 | AMD             | Raven/Raven2/FireFlig... | 100%   |          | 2D72496D20 |
+| 1022:15e2 | 103c:8433 | AMD             | Raven/Raven2/FireFlig... | 100%   |          | 2BCAD0A319 |
+| 1022:15e2 | 103c:8434 | AMD             | Raven/Raven2/FireFlig... | 100%   |          | E30D68CA01 |
+| 1022:15e2 | 103c:8496 | AMD             | Raven/Raven2/FireFlig... | 100%   |          | 10702AB56C |
+| 1022:15e2 | 103c:84ae | AMD             | Raven/Raven2/FireFlig... | 95.5%  | 5.0.0    | 2046C4286D |
+| 1022:15e2 | 103c:84d2 | AMD             | Raven/Raven2/FireFlig... | 100%   |          | 082F8083C9 |
+| 1022:15e2 | 17aa:36f5 | AMD             | Raven/Raven2/FireFlig... | 100%   |          | 7E41940C9C |
+| 1022:15e2 | 17aa:380b | AMD             | Raven/Raven2/FireFlig... | 100%   |          | FC22553A70 |
+| 1022:15e2 | 19e5:3e06 | AMD             | Raven/Raven2/FireFlig... | 100%   |          | 2CDCEA8607 |
 | 109e:0878 |           | Brooktree       | Bt878 Audio Capture      | 100%   |          | 4DDFFD5967 |
 | 109e:0878 | 0070:ff04 | Brooktree       | Bt878 Audio Capture      | 100%   |          | 2C877CF870 |
 | 109e:0878 | 1047:f331 | Brooktree       | Bt878 Audio Capture      | 100%   |          | 444FFBC8A6 |
@@ -947,17 +949,17 @@ Probe  — latest probe ID with missed driver for the device.
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
 | 0045:c061 | 0045:c061 |                 | Audio device             | 100%   |          | 8D884B92FA |
-| 1002:1308 | 1025:0864 | AMD/ATI         | Kaveri HDMI/DP Audio ... | 8.3%   | 3.14.44  | 8D6D195DA2 |
-| 1002:1314 | 1025:0520 | AMD/ATI         | Wrestler HDMI Audio      | 6.2%   | 3.14.44  | BF118AA31C |
-| 1002:4383 | 1025:0520 | AMD/ATI         | SBx00 Azalia (Intel HDA) | 6.2%   | 3.14.44  | BF118AA31C |
-| 1002:4383 | 1043:836c | AMD/ATI         | SBx00 Azalia (Intel HDA) | 0.3%   | 3.14.44  | B2C845B843 |
-| 1002:9840 | 17aa:2219 | AMD/ATI         | Kabini HDMI/DP Audio     | 50%    | 4.9.60   | 94058A82CA |
-| 1002:aa38 | 1462:aa38 | AMD/ATI         | RV710/730 HDMI Audio ... | 3.7%   | 3.14.44  | 51837DE98F |
-| 1002:aa38 | 174b:aa38 | AMD/ATI         | RV710/730 HDMI Audio ... | 1.1%   | 3.14.25  | 45FCBC8B9A |
-| 1002:aa98 | 1043:aa98 | AMD/ATI         | Caicos HDMI Audio [Ra... | 1.8%   | 3.0.38   | 2A34C16AB3 |
-| 1002:aab0 | 1043:aab0 | AMD/ATI         | Oland/Hainan/Cape Ver... | 0.8%   | 3.14.22  | CDC3F83CDB |
-| 1002:aac0 | 1458:aac0 | AMD/ATI         | Tobago HDMI Audio [Ra... | 4.3%   | 3.14.44  | 62E0E97099 |
-| 1022:1457 | 1849:2220 | Advanced Mic... | Family 17h (Models 00... | 25%    | 4.18.0   | 707960B3EC |
+| 1002:1308 | 1025:0864 | AMD             | Kaveri HDMI/DP Audio ... | 8.3%   | 3.14.44  | 8D6D195DA2 |
+| 1002:1314 | 1025:0520 | AMD             | Wrestler HDMI Audio      | 6.2%   | 3.14.44  | BF118AA31C |
+| 1002:4383 | 1025:0520 | AMD             | SBx00 Azalia (Intel HDA) | 6.2%   | 3.14.44  | BF118AA31C |
+| 1002:4383 | 1043:836c | AMD             | SBx00 Azalia (Intel HDA) | 0.3%   | 3.14.44  | B2C845B843 |
+| 1002:9840 | 17aa:2219 | AMD             | Kabini HDMI/DP Audio     | 50%    | 4.9.60   | 94058A82CA |
+| 1002:aa38 | 1462:aa38 | AMD             | RV710/730 HDMI Audio ... | 3.7%   | 3.14.44  | 51837DE98F |
+| 1002:aa38 | 174b:aa38 | AMD             | RV710/730 HDMI Audio ... | 1.1%   | 3.14.25  | 45FCBC8B9A |
+| 1002:aa98 | 1043:aa98 | AMD             | Caicos HDMI Audio [Ra... | 1.8%   | 3.0.38   | 2A34C16AB3 |
+| 1002:aab0 | 1043:aab0 | AMD             | Oland/Hainan/Cape Ver... | 0.8%   | 3.14.22  | CDC3F83CDB |
+| 1002:aac0 | 1458:aac0 | AMD             | Tobago HDMI Audio [Ra... | 4.3%   | 3.14.44  | 62E0E97099 |
+| 1022:1457 | 1849:2220 | AMD             | Family 17h (Models 00... | 25%    | 4.18.0   | 707960B3EC |
 | 1022:2093 | 1022:2093 | AMD             | CS5536 [Geode compani... | 100%   |          | 6D9551F87E |
 | 1022:780d | 1025:0864 | AMD             | FCH Azalia Controller    | 8.3%   | 3.14.44  | 8D6D195DA2 |
 | 1022:780d | 1043:85cd | AMD             | FCH Azalia Controller    | 5.9%   | 3.14.44  | CDC3F83CDB |
@@ -1195,7 +1197,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Tv card (PCI)
 
-2 out of 199 (1.01%)
+2 out of 200 (1%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -1204,7 +1206,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Usb controller (PCI)
 
-21 out of 12613 (0.17%)
+21 out of 12612 (0.17%)
 
 | ID        | Subsystem | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------|-----------------|--------------------------|--------|----------|------------|
@@ -1391,7 +1393,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Disk (USB)
 
-11 out of 1185 (0.93%)
+11 out of 1182 (0.93%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
@@ -1424,7 +1426,7 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Fingerprint reader (USB)
 
-39 out of 40 (97.50%)
+40 out of 41 (97.56%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
@@ -1433,6 +1435,7 @@ Probe  — latest probe ID with missed driver for the device.
 | 04f3:0c03 | Elan Microel... | ELAN:Fingerprint         | 100%   |          | 600AC82384 |
 | 04f3:0c1a | Elan Microel... | ELAN:Fingerprint         | 100%   |          | 7AC11DC300 |
 | 05ba:0002 | DigitalPersona  | Fingerprint Scanner, ... | 100%   |          | AE361E5F23 |
+| 06cb:0082 | Synaptics       | My Lockey                | 100%   |          | C77AFE79C3 |
 | 08ff:1600 | AuthenTec       | AES1600                  | 100%   |          | 73D90C4661 |
 | 08ff:1660 | AuthenTec       | AES1660 Fingerprint S... | 100%   |          | A191366E2F |
 | 08ff:1686 | AuthenTec       | Fingerprint Sensor       | 100%   |          | 73CAFC58A2 |
@@ -1626,10 +1629,11 @@ Probe  — latest probe ID with missed driver for the device.
 
 ### Network (USB)
 
-4 out of 183 (2.19%)
+5 out of 184 (2.72%)
 
 | ID        | MFG             | Name                     | Missed | Linux    | Probe      |
 |-----------|-----------------|--------------------------|--------|----------|------------|
+| 0846:9053 | NetGear         | A6210                    | 100%   |          | 63DE98D3F1 |
 | 0bda:b720 | Realtek Semi... | RTL8723BU 802.11n WLA... | 5.6%   | 4.4.1    | 6135515DEB |
 | 2001:330f | D-Link          | RTL8188ETV DWA-125 11... | 3.7%   | 3.14.44  | 01D21EA756 |
 | 2001:3318 | D-Link          | 11ac adapter             | 66.7%  | 4.1.34   | 3A9AB88271 |
